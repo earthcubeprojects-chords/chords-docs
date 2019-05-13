@@ -13,14 +13,8 @@ If you already have an AWS account, just go to [Portal creation](http://ncar.git
 <a href=" https://aws.amazon.com/ec2/instance-types/ "> https://aws.amazon.com/ec2/instance-types/ </a>
 
 **Note:** when you first sign into your account it’s automatically signed up for all services in AWS (e.g. lambda). You are only charged for the services that you use. For more information visit <a href=" https://aws.amazon.com/lambda/  "> https://aws.amazon.com/lambda/  </a>
-<<<<<<< HEAD
-
-<figure>
-    <a href="{{ site.baseurl }}/assets/images/AWS_START.PNG"><img class="img-responsive" src="{{ site.baseurl }}/assets/images/AWS_START.PNG" ></a>
-=======
 <figure>
     <a href = "{{ site.baseurl }}/assets/images/AWS_START.PNG"><img class="img-responsive" src="{{ site.baseurl }}/assets/images/AWS_START.PNG"></a>
->>>>>>> fd6f7963734cacb5e789e318897831d0c6daaff8
 </figure>
 <br>
 <hr>

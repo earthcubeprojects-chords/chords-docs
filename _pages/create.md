@@ -67,20 +67,10 @@ Log onto your AWS account to begin.
   <a href = "{{ site.baseurl }}/assets/images/Step1.png"><img  class="img-responsive" src="{{ site.baseurl }}/assets/images/Step1.png"></a> <!--Using liquid to set path for images.-->
 </figure>      
 
-<<<<<<< HEAD
-<figure>
-  <a href="{{ site.baseurl }}/assets/images/Step1.png"><img  class="img-responsive" src="{{ site.baseurl }}/assets/images/Step1.png"></a> <!--Using liquid to set path for images.-->
-</figure>     
-
-## 2. Start stack creation and Specify template 
-
-<img  class="img-responsive" src="{{ site.baseurl }}/assets/images/Step2.png"><!--This image needs updated to a full screen shot showing context-->
-=======
 ## 2. Start stack creation and Specify template 
 <figure>
   <a href = "{{ site.baseurl }}/assets/images/Step2.png"><img  class="img-responsive" src="{{ site.baseurl }}/assets/images/Step2.png"></a><!--Using liquid to set path for images.-->
 </figure>
->>>>>>> fd6f7963734cacb5e789e318897831d0c6daaff8
 
 * Click **Create new stack**
 
@@ -143,15 +133,9 @@ much longer (even 30 minutes), depending upon AWS performance.
 ## 7. Accessing the new portal
 
 Once your portal is created click on your **Stack Name** then the **“Outputs”** tab. Below it will show a URL for the new portal, **click** on the URL to access your new portal.
-<<<<<<< HEAD
-If you wish to change this to a domain name you can use [GoDaddy](https://www.godaddy.com/offers/domains/names?isc=gofd1001aj&gclid=EAIaIQobChMI7LaY-6qK4gIVIv_jBx2qFgUcEAAYAiAAEgL4yfD_BwE&gclsrc=aw.ds), [Google](https://domains.google/?gclid=EAIaIQobChMI7LaY-6qK4gIVIv_jBx2qFgUcEAAYASAAEgLX-_D_BwE#/), or [Wix](https://www.wix.com/html5us/domain-solutions?utm_source=google&gclid=EAIaIQobChMI7LaY-6qK4gIVIv_jBx2qFgUcEAAYAyAAEgJErPD_BwE&utm_campaign=914453717%5E47381781098&experiment_id=domain+names%5Ee%5E220764047163%5E1t3&utm_medium=cpc). Using a domain name can make it easier to find and remember your CHORDS site. The one gotcha is that you will need to pay for it seperately.
-
-<img  class="img-responsive" src="{{ site.baseurl }}/assets/images/Step9.png"><!--Using liquid to set path for images.-->
-=======
 <figure>
   <a href = "{{ site.baseurl }}/assets/images/Step9.png"><img  class="img-responsive" src="{{ site.baseurl }}/assets/images/Step9.png"></a><!--Using liquid to set path for images.-->
 </figure>
->>>>>>> fd6f7963734cacb5e789e318897831d0c6daaff8
 
 ## 8. Log Into to Your Brand-New CHORDS Portal!
 * Click on the **“Sign in”** 
