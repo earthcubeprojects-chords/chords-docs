@@ -58,6 +58,4 @@ Please see [http://data.datacite.org/application/vnd.datacite.datacite+json/10.5
 
 CHORDS is being developed for the National Science Foundation’s EarthCube program under grants 1639750, 1639720, 1639640, 1639570 and 1639554.
 
-
-
-
+The documentation version is {% site.github.build_revision %}.
