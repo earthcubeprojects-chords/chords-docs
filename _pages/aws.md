@@ -14,8 +14,9 @@ If you already have an AWS account, just go to [Site configuration]({{site.baseu
 
 **Note:** when you first sign into your account it’s automatically signed up for all services in AWS (e.g. lambda). You are only charged for the services that you use. For more information visit <a href=" https://aws.amazon.com/lambda/  "> https://aws.amazon.com/lambda/  </a>
 <figure>
-    <a href = "{{ site.baseurl }}/assets/images/AWS_START.PNG"><img class="img-responsive" src="{{ site.baseurl }}/assets/images/AWS_START.PNG"></a>
+    <!--<a href = "{{site.baseurl}}/assets/images/AWS_START.PNG">--><img class="img-responsive" src="{{site.baseurl}}/assets/images/AWS_START.PNG"><!--</a>-->
 </figure>
+
 <br>
 <hr>
 
