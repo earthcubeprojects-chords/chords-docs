@@ -2,10 +2,11 @@
 layout: single
 title: How to Jetstream
 permalink: /gettingstarted/jetstream/
-toc: true
-toc_sticky: true
-toc_label: "Table of Contents"
-toc_icon: "cog"
+# toc: true
+# toc_sticky: true
+# toc_label: "Table of Contents"
+# toc_icon: "cog"
+classes: wide
 ---
 
 <embed src="https://www.youtube.com/embed/1fKdFjAQU8U" width="425" height="344">

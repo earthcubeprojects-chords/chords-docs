@@ -5,7 +5,7 @@ permalink: /gettingstarted/aws/
 classes: wide
 ---
 
-If you already have an AWS account, just go to [Portal creation](http://ncar.github.io/chords/create.html).
+If you already have an AWS account, just go to [Site configuration]({{site.baseurl}}/admin).
 
 
 ## 1. Sign up in AWS

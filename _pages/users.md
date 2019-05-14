@@ -181,6 +181,10 @@ The visualization link will open a new browser window which provides access to t
 **NOTE:**The variable number will relate to the instrument_id **NOT** sensor_id. (var = instrument_id)
 
   <img  class="img-responsive" src="{{ site.baseurl }}/assets/images/grafsetup_120.png"><!--Using liquid to set path for images.-->
+
+  When you're done editing your grafana should look something like: 
+
+
     “autogen” “tsdata” “var” “(variable number)”  
     “field(value)” “mean()”  
     “time($_interval)” “fill(null)”  

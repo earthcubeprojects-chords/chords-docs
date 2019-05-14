@@ -14,13 +14,13 @@ toc_icon: "cog"
 
 ## Option 1: Run CHORDS on Amazon Web Services
 
-### Amazon Web Services
+**Amazon Web Services**
 
 If you don't have an AWS account, it's easy to create one. The standard CHORDS portal uses an Amazon "micro instance", which can be free for the first year.
  
 <a href="{{site.baseurl}}/gettingstarted/aws" class="btn btn--primary">Open an AWS account</a><!--Using liquid to set path for button.-->
 
-### AWS CHORDS Portal
+**AWS CHORDS Portal**
 
 Create an amazon account and set up your server through amazon. The standard server is a “Micro Instance” which is free for the first year of use.
 
@@ -29,7 +29,7 @@ Create an amazon account and set up your server through amazon. The standard ser
 
 ## Option 2: Run CHORDS on Jetstream
     
-### Jetstream
+**Jetstream**
 
 If you are NSF funded then you can use a Jestream instance free! If you aren't that's still ok. You can apply for a trial account similar Amazon and request more allocations later while contributing to the scientific community!
 
@@ -44,7 +44,7 @@ Once you've created your Jetstream server and portal you'll need to configure it
 
 ## Option 3: Run CHORDS locally
 
-### CHORDS Portal
+**CHORDS Portal**
 
 CHORDS can be run on a cloud service of your choice, or just a local machine, running Linux, MacOS or Windows. Configure the operating system, and then run the CHORDS control script to create a CHORDS Portal instance.
 

@@ -7,45 +7,12 @@ toc_sticky: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
 
-gallery:
-  - url: /assets/images/Step1.png
-    image_path: /assets/images/Step1.png
-    alt: "placeholder image 1"
-
-  - url: /assets/images/Step2.png
-    image_path: /assets/images/Step2.png
-    alt: "placeholder image 2"
-
-  - url: /assets/images/Step3.png
-    image_path: /assets/images/Step3.png
-
-  - url: /assets/images/Step4.png
-    image_path: /assets/images/Step4.png
-    
-  - url: /assets/images/Step5.png
-    image_path: /assets/images/Step5.png
-
-  - url: /assets/images/Step6.png
-    image_path: /assets/images/Step6.png
-    
-  - url: /assets/images/Step7.png
-    image_path: /assets/images/Step7.png
-    
-  - url: /assets/images/Step8.png
-    image_path: /assets/images/Step8.png
-   
-  - url: /assets/images/Step9.png
-    image_path: /assets/images/Step9.png
-  
-  - url: /assets/images/Step10.png
-    image_path: /assets/images/Step10.png
-
 ---
 
 If someone else has already created a Portal for you, you can skip Portal creation. Just point
 your browser at the new Portal and perform the initial login as user: <em>admin@chordsrt.com</em>, 
 password: <em>realtimedata</em>. You will be prompted to change the password during this first login.
-You can then proceed to [Portal configuration]({{site.baseurl}}/admin).
+You can then proceed to [Site configuration]({{site.baseurl}}/admin).
 
 The Portal runs as a standalone web server on Amazon Web Services (AWS). 
 The interface to AWS can seem a bit overwhelming (currently offering 52
@@ -153,7 +120,7 @@ own email and password.
 * Change your email and then click **Change Password**
 * Enter your new password and use **realtimedata** as your old password to confirm the change
 * Click **Update**
-
+ 
 # If something breaks
 * If the provisioning fails, the instance will be stopped, and you won\'t know why. You can redo the process, 
 and disable the rollback, so that the instance is left running. To do this, when on the *Options* page, 
