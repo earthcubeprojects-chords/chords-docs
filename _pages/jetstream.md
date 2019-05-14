@@ -66,8 +66,9 @@ Wait approximately 4 hours for your allocation to propagate through the authenti
 
 10. Select XSEDE and hit continue 
 <figure>
-  <a href = "{{ site.baseurl }}/assets/images/JetstreamOrganization.png"><img  class="img-responsive" src="{{ site.baseurl }}/assets/images/JetstreamOrganization.png"><!--Using liquid to set path for images.-->
+  <a href = "{{ site.baseurl }}/assets/images/JetstreamOrganization.png"><img  class="img-responsive" src="{{ site.baseurl }}/assets/images/JetstreamOrganization.png"></a><!--Using liquid to set path for images.-->
 </figure>
+
 
 11. Sign in with your XSEDE credentials
 <figure>
