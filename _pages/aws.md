@@ -95,4 +95,5 @@ https://[aws account number goes here].signin.aws.amazon.com/console/
 <figure>
     <a href = "{{ site.baseurl }}/assets/images/AWS_Step7.PNG"><img class="img-responsive" src="{{ site.baseurl }}/assets/images/AWS_Step7.PNG"></a>
 </figure>
-All done, now go to this link to [Create a Portal via AWS](http://ncar.github.io/chords/create.html)! <!--this needs changed to go to current website link-->
+
+All done, now go to this link to [Create Portal in AWS]({{site.baseurl}}/gettingstarted/create) <!--this needs changed to go to current website link-->
