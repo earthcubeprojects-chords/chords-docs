@@ -24,7 +24,7 @@ If you already have an AWS account, just go to [Site configuration]({{site.baseu
 * Walk through their online setup and make a note of your **ID**
   - **Note:** <em>There will be a section where you will need to provide a credit card number and enter a PIN via a phone call from Amazon</em>
   <figure>
-    <a href = "{{ site.baseurl }}/assets/images/AWS_Step1.PNG"><img class="img-responsive" src="{{ site.baseurl }}/assets/images/AWS_Step1.PNG"></a>
+    <a href = "{{ site.baseurl }}/assets/images/AWS_Step1.png"><img class="img-responsive" src="{{ site.baseurl }}/assets/images/AWS_Step1.png"></a>
   </figure>
   Please <em>keep a note of your AWS account ID</em>, you'll need it next.
 
@@ -37,7 +37,7 @@ If you already have an AWS account, just go to [Site configuration]({{site.baseu
 <br>
 <hr>
 <figure>
-    <a href = "{{ site.baseurl }}/assets/images/AWS_Step2.PNG"><img class="img-responsive" src="{{ site.baseurl }}/assets/images/AWS_Step2.PNG"></a>
+    <a href = "{{ site.baseurl }}/assets/images/AWS_Step2.png"><img class="img-responsive" src="{{ site.baseurl }}/assets/images/AWS_Step2.png"></a>
 </figure>
 
 * Type in a user name.
@@ -46,12 +46,12 @@ Quoted from http://docs.aws.amazon.com/lambda/latest/dg/setting-up.html
 
 * Click the checkbox next to **AWS Management Console access**, select **Custom password**, type the new user’s password in the text box and unclick **Require password reset**. You can also select Programmatic access which will give the user more access to the key ID and secret access key.
 <figure>
-    <a href ="{{ site.baseurl }}/assets/images/AWS_Step3.PNG"> <img class="img-responsive" src="{{ site.baseurl }}/assets/images/AWS_Step3.PNG"></a>
+    <a href ="{{ site.baseurl }}/assets/images/AWS_Step3.png"> <img class="img-responsive" src="{{ site.baseurl }}/assets/images/AWS_Step3.png"></a>
 </figure>
 
 * When you hit next you’ll see a page about groups and users. Select **Attach existing policies directly** and check the first box in the window below, **AdministratorAccess**.
 <figure>
-    <a href = "{{ site.baseurl }}/assets/images/AWS_Step3.5.PNG"><img class="img-responsive" src="{{ site.baseurl }}/assets/images/AWS_Step3.5.PNG"></a>
+    <a href = "{{ site.baseurl }}/assets/images/AWS_Step3.5.png"><img class="img-responsive" src="{{ site.baseurl }}/assets/images/AWS_Step3.5.png"></a>
 </figure>
 Move onto the **Review** step. Here you can double check your user and what permissions they have before creating their account. If this looks OK, click on **Create user**.
 
@@ -72,29 +72,29 @@ https://[aws account number goes here].signin.aws.amazon.com/console/
 
 * Click on the link provided by AWS and enter the IAM username and password you made. Once you’ve successfully logged in your navigation bar at the top should show <em> your_user_name@your_aws_account_id </em>
 <figure>
-    <a href ="{{ site.baseurl }}/assets/images/AWS_Step4.PNG"> <img class="img-responsive" src="{{ site.baseurl }}/assets/images/AWS_Step4.PNG"></a>
+    <a href ="{{ site.baseurl }}/assets/images/AWS_Step4.png"> <img class="img-responsive" src="{{ site.baseurl }}/assets/images/AWS_Step4.png"></a>
 </figure>
 
 ## 4. Create a Key Pair
 
 * Bring up EC2 Services by Selecting **Services** on the top bar:
 <figure>
-    <a href = "{{ site.baseurl }}/assets/images/AWS_Step4.5.PNG"><img class="img-responsive" src="{{ site.baseurl }}/assets/images/AWS_Step4.5.PNG" ></a>
+    <a href = "{{ site.baseurl }}/assets/images/AWS_Step4.5.png"><img class="img-responsive" src="{{ site.baseurl }}/assets/images/AWS_Step4.5.png" ></a>
 </figure>
 
 * Click on **EC2**
 <figure>
-    <a href = "{{ site.baseurl }}/assets/images/AWS_Step5.PNG"><img class="img-responsive" src="{{ site.baseurl }}/assets/images/AWS_Step5.PNG"></a>
+    <a href = "{{ site.baseurl }}/assets/images/AWS_Step5.png"><img class="img-responsive" src="{{ site.baseurl }}/assets/images/AWS_Step5.png"></a>
 </figure> 
 
 * Select **Key Pairs** on the left
 <figure>
-    <a href = "{{ site.baseurl }}/assets/images/AWS_Step6.PNG"><img class="img-responsive" src="{{ site.baseurl }}/assets/images/AWS_Step6.PNG"></a>
+    <a href = "{{ site.baseurl }}/assets/images/AWS_Step6.png"><img class="img-responsive" src="{{ site.baseurl }}/assets/images/AWS_Step6.png"></a>
 </figure>
 
 * Click **Create Key Pair** and enter a Key pair name:
 <figure>
-    <a href = "{{ site.baseurl }}/assets/images/AWS_Step7.PNG"><img class="img-responsive" src="{{ site.baseurl }}/assets/images/AWS_Step7.PNG"></a>
+    <a href = "{{ site.baseurl }}/assets/images/AWS_Step7.png"><img class="img-responsive" src="{{ site.baseurl }}/assets/images/AWS_Step7.png"></a>
 </figure>
 
 All done, now go to this link to [Create Portal in AWS]({{site.baseurl}}/gettingstarted/create) <!--this needs changed to go to current website link-->
