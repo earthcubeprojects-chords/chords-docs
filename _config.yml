@@ -62,9 +62,9 @@ words_per_minute         : 200
 #   siteKey                :
 #   secret                 :
 atom_feed:
-  path                   : " " # blank (default) uses feed.xml
-search                   : false #search bar only searches for posts NOT pages.
-#search_full_content      : true # Searches for posts only
+  path                     : " " # blank (default) uses feed.xml
+search                     : true # N.B. search bar only searches for posts NOT pages.
+#search_full_content       : true # Searches for posts only
 # search_provider          : # lunr (default), algolia, google
 # algolia:
 #   application_id         : # YOUR_APPLICATION_ID
@@ -100,7 +100,6 @@ analytics:
   google:
     tracking_id          :
     anonymize_ip         : # true, false (default)
-
 
 # Site Author
 author:
@@ -156,15 +155,11 @@ defaults:
     values:
       layout: single
 
-
-
 # _portfolio 
 collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-
-        
 
 defaults:
   # _pages
@@ -244,14 +239,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown #creates the table of contents menu. 
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -264,19 +257,16 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
 
 # # Outputting
 # permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
 # timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
 
 # Plugins (previously gems:)
 plugins:
