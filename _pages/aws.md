@@ -9,8 +9,7 @@ If you already have an AWS account, just go to [Site configuration]({{site.baseu
 
 
 ## 1. Sign up in AWS
-* Go to the <a href="https://aws.amazon.com/s/dm/optimization/server-side-test/free-tier/free_np/">amazon</a> web services website. Click on start a <em>free</em> account. We generally recommend the small account (t2.small) as it has more space for recording data and won’t overwhelm as quickly as the micro account (t2.micro). However, if you are unsure as to which account will suit you the micro account is free the first year and you can upgrade if you end up running out of space. For more information on the instance types click on the link below.
-<a href=" https://aws.amazon.com/ec2/instance-types/ "> https://aws.amazon.com/ec2/instance-types/ </a>
+* Go to the <a href="https://aws.amazon.com/s/dm/optimization/server-side-test/free-tier/free_np/">Amazon</a> web services website. Click on start a <em>free</em> account. We generally recommend the small account (t2.small) as it has more space for recording data and won’t overwhelm as quickly as the micro account (t2.micro). However, if you are unsure as to which account will suit you the micro account is free the first year and you can upgrade if you end up running out of space. For more information on see <a href=" https://aws.amazon.com/ec2/instance-types/"> Instance Types</a>
 
 **Note:** when you first sign into your account it’s automatically signed up for all services in AWS (e.g. lambda). You are only charged for the services that you use. For more information visit <a href="https://aws.amazon.com/lambda/"> Amazon Lambda</a>
 
