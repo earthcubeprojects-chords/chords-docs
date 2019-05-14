@@ -42,7 +42,7 @@ classes: wide
 
 
 ## Current and Future
-Currently, portals only process time-series measurements. Plans are underway to add additional data types, such as ray-oriented measurements and imagery. We are always open to suggestions for other observation types. You can send us suggestions or questions via email at [chords@ucar.edu](chords@ucar.edu) or visit us on our github [https://github.com/NCAR/chords](https://github.com/NCAR/chords). 
+Currently, portals only process time-series measurements. Plans are underway to add additional data types, such as ray-oriented measurements and imagery. We are always open to suggestions for other observation types. You can send us suggestions or questions via email at [chords@ucar.edu](chords@ucar.edu) or visit us on our github [https://github.com/earthcubeprojects-chords](https://github.com/earthcubeprojects-chords). 
 
 ## Citing CHORDS and Sponsor Acknowledgements
 
@@ -58,5 +58,6 @@ Please see [http://data.datacite.org/application/vnd.datacite.datacite+json/10.5
 
 CHORDS is being developed for the National Science Foundation’s EarthCube program under grants 1639750, 1639720, 1639640, 1639570 and 1639554.
 
-The documentation version is {% raw %}{{ site.github.build_revision }}{% endraw %}.
+The documentation version is {% raw %}{{ site.github.build_revision }}{% endraw %}. <!--there is a way to make this print the current version of a repo. So It won't need constantly updated.-->
+
 <!-- build-commit-id: {{ site.github.build_revision }} -->

@@ -44,7 +44,7 @@ A Data Downloader can:
 3. Select the dates that you want to download data from
 4. Select the instruments you want to download data from OR click **“Select All”**
 
-5. Click **“Download GeoJSON”**
+5. Click **“Download GeoJSON”** or **“Download GeoCSV”**
 
 
 ### Measurement Creator
@@ -67,8 +67,8 @@ To find your api key:
 
 
 
-## Particle
-How to create a JSON string using Particle
+## Particle IoT hardware
+How to create a JSON string using [Particle](https://www.particle.io)
 
 1. In the beginning of your program add the line: ``#define ARDUINOJSON_ENABLE_ARDUINO_STRING 1``
 2. Add the library ArduinoJSON ``#include <ArduinoJson.h>``

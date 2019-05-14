@@ -56,7 +56,7 @@ Data Archive URL: This is the link to the archive of data being ingested by CHOR
 
 Time Zone
 
-Project Description: A short description of your project. This may use HTML Markup. If you haven’t used HTML markup or aren’t sure what it is, you may see this link.
+Project Description: A short description of your project. This may use [HTML Markup]. If you haven’t used HTML markup or aren’t sure what it is, you may see this [link](http://www.simplehtmlguide.com/examplesheet.php).
 
 Logo File: You may upload a customized logo for your portal here. It will appear in the portal header page. 
 
