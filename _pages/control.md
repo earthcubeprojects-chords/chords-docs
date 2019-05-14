@@ -79,7 +79,7 @@ docker logs -f chords_app
 #### Visualization
 Hit the _Visualization_ button to open a tab pointing to the builtin Grafana server.
 
-Login with admin/<CHORDS_ADMIN_PW> to begin configuring Grafana (login on the Raspbery Pi is admin/changeme).
+Login with admin <CHORDS_ADMIN_PW> to begin configuring Grafana (login on the Raspbery Pi is admin/admin).
 
 The [Getting Started Guide](http://docs.grafana.org/guides/getting_started/) is a good place to begin
 learning about Grafana. There is also a [very useful tutorial](http://docs.grafana.org/features/datasources/influxdb/)
