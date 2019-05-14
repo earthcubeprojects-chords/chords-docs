@@ -18,7 +18,7 @@ _Note: On systems where docker requires root, you may need to use sudo to run th
    * W10 Pro: [Docker for Windows](https://docs.docker.com/engine/installation/windows/#/docker-for-mac)
    * W7: For us hapless Windows 7 users, we have to use the less elegant [Docker Toolbox](https://docs.docker.com/engine/installation/windows/#/docker-toolbox). 
    * Linux: See [instructions](https://docs.docker.com/engine/installation/linux/) for various flavors of this OS.
-   * Raspberry Pi: See the easy to follow [instructions](https://github.com/NCAR/chords/wiki/Docker-on-Raspberry-Pi) for bringing up a Docker enabled
+   * Raspberry Pi: See the easy to follow [instructions](https://github.com/earthcubeprojects-chords/chords-docs/wiki/Docker-on-Raspberry-Pi) for bringing up a Docker enabled
    Raspberry Pi.
  * Port 25 must be open. Port 3000 must be open for the Grafana visualization, but you can use CHORDs without this 
    feature.
@@ -132,4 +132,4 @@ you should not change them. Otherwise, the Rails application will not be able to
 
 ### More Information  
 * More [CHORDS Docker tips](https://github.com/NCAR/chords/wiki/Docker-Details-and-Tips) are available on the project wiki.
-* The CHORDS docker images are served from Docker Hub [repository](https://hub.docker.com/r/ncareol/chords_app/).
+* The CHORDS docker images are served from Docker Hub repository. <!--[repository](https://hub.docker.com/r/ncareol/chords_app/).THIS LINK IS BROKEN-->
