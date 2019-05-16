@@ -1,10 +1,10 @@
 # Documentation Repository for EarthCube CHORDS
 
-_Shortcut: See the CHORDS [published documentation](https://earthcubeprojects-chords.github.io/chords-docs/)_
+_Shortcut: See the CHORDS [published documentation](https://earthcubeprojects-chords.github.io/chords-docs/)._
 
-Hello! This is our CHORDS documentation repository! It explains what CHORDS is, how to use it, and answer as many user questions as possible. It is published using GitHub Pages. We post all of our available documentation here to help use CHORDS in new and advanced ways as well as any exciting news. 
+Hello! This is our CHORDS documentation repository! The content explains what CHORDS is, how to use use it in new and advanced ways, answer as many user questions as possible, and post any exciting news. It .
 
-The website is run on the Jekyll framework, using the Jekyll [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) Theme, so if you have any questions be sure to visit his [guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/). 
+The website is published using GitHub Pages, and runs on the Jekyll framework, using the Jekyll [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) Theme. If you have any questions about the framework, be sure to visit the [Minimal Mistakes guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/). 
 
 ## Running Locally
  If you want to work on the documentation, you will develop and test on your own machine. The instructions below will get a copy of the website up and running locally on your computer. 
