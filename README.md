@@ -12,7 +12,7 @@ $ brew install ruby
 Visual Studio Code 
 
 
-Notes for running locally:
+### Running Locally
 - Clone the repository locally
 - Navigate to your repo with terminal or command line
 - make sure gems and ruby have been updated!
