@@ -2,7 +2,7 @@
 
 _Shortcut: See the CHORDS [published documentation](https://earthcubeprojects-chords.github.io/chords-docs/)._
 
-Hello! This is our CHORDS documentation repository! The content explains what CHORDS is, how to use use it in new and advanced ways, answer as many user questions as possible, and post any exciting news. It .
+Hello! This is our CHORDS documentation repository! The content explains what CHORDS is, how to use use it in new and advanced ways, answer as many user questions as possible, and post any exciting news.
 
 The website is published using GitHub Pages, and runs on the Jekyll framework, using the Jekyll [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) Theme. If you have any questions about the framework, be sure to visit the [Minimal Mistakes guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/). 
 
