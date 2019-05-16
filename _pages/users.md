@@ -130,7 +130,7 @@ If the data never shows up at the CHORDS site you are using, you can go back to 
 
 Thanks to Jeaime Powell of the [University of Texas](https://www.tacc.utexas.edu) for putting together these documents for us.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ## Retrieving Data 
 
