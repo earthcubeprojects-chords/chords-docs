@@ -14,22 +14,18 @@ The website is published using GitHub Pages, and runs on the Jekyll framework, u
 ```
 $ brew install ruby
 ```
-Visual Studio Code
 
 - Clone this repository, and navigate to it:
 ```
 git clone https://github.com/earthcubeprojects-chords/chords-docs.git
 cd chords-docs
 ```
-- Update the gems:
-```
-gem update
-```
-- Install the gems:
+
+- Install bundler
 ```
 bundle install
 ```
-- Update the theme by running 
+- Update gems through bundler
 ```
 bundle update
 ```
