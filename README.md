@@ -16,7 +16,11 @@ $ brew install ruby
 ```
 Visual Studio Code
 
-- Clone this repository, and navigate to it in a terminal.
+- Clone this repository, and navigate to it:
+```
+git clone https://github.com/earthcubeprojects-chords/chords-docs.git
+cd chords-docs
+```
 - Update the gems:
 ```
 gem update
