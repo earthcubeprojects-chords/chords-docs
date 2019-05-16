@@ -29,7 +29,6 @@ gem update
 ```
 bundle install
 ```
-- Type "bundle" in your command line to update gems
 - Update the theme by running 
 ```
 bundle update
