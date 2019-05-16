@@ -125,6 +125,10 @@ JSON Key Name
 - Click **“Create Webhook”**
 <p class="notice--primary">Do not Particle.publish data faster than 1 per second or Particle will complain and or limit your ability to stream data (you can insert a “delay(1000);” in your code after a Particle.publish to prevent this issue)</p>
 
+If the data never shows up at the CHORDS site you are using, you can go back to “Integrations” on Particle, scroll all the way down to the bottom of your webhook and it provides further information under “Logs”.
+
+
+Thanks to Jeaime Powell of the [University of Texas](https://www.tacc.utexas.edu) for putting together these documents for us.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
