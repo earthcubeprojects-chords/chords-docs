@@ -43,6 +43,17 @@ There are several main ways to use chords_control
 
 If you have difficulties with your chords_control you can always type ``python chords_control --help``
 
+## Portal Backup and Restoration
+
+``python chords_control --backup``
+- Creates a backup .tar file of your portal
+
+``python chords_control --restore (backup_file.tar)``
+- Restores your CHORDS portal to the backup version
+
+<embed src="https://www.youtube.com/embed/Tr1kRlVfFrQ" width="425" height="344">
+
+
 ## Docker
 
 Docker is used as a tool to make it easier to create, deploy and run CHORDS by using containers. Containers let us package CHORDS with all the parts it needs, like libraries and other dependencies, and ship it out in one nice simple package. For more information on Docker check out their [website](https://docs.docker.com/get-started/).
