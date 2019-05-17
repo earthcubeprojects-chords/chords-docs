@@ -5,7 +5,7 @@ cd /var/lib/chords
 
 # Fetch the control script:
 pip install sh
-curl -O -k https://raw.githubusercontent.com/NCAR/chords/master/chords_control
+curl -O -k https://raw.githubusercontent.com/earthcubeprojects-chords/chords/master/chords_control
 
 # Initial installation:
 python chords_control --config
@@ -19,7 +19,7 @@ python chords_control --stop
 
 # To reconfigure and update:
 cd /var/lib/chords
-curl -O -k  https://raw.githubusercontent.com/NCAR/chords/master/chords_control
+curl -O -k  https://raw.githubusercontent.com/earthcubeprojects-chords/chords/master/chords_control
 python chords_control --config
 python chords_control --update
 python chords_control --stop

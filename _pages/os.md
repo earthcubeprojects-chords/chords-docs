@@ -51,7 +51,7 @@ classes: wide
 
   # Fetch the control script:
   pip install sh
-  curl -O -k https://raw.githubusercontent.com/NCAR/chords/master/chords_control
+  curl -O -k https://raw.githubusercontent.com/earthcubeprojects-chords/chords/master/chords_control
 
   # Initial installation:
   python chords_control --config
@@ -65,7 +65,7 @@ classes: wide
 
   # To reconfigure and update:
   cd chords
-  curl -O -k  https://raw.githubusercontent.com/NCAR/chords/master/chords_control
+  curl -O -k  https://raw.githubusercontent.com/earthcubeprojects-chords/chords/master/chords_control
   python chords_control --config
   python chords_control --update
   python chords_control --stop
@@ -130,7 +130,7 @@ classes: wide
   cd chords
 
 # Fetch the control script:
-curl -O -k https://raw.githubusercontent.com/NCAR/chords/master/chords_control
+curl -O -k https://raw.githubusercontent.com/earthcubeprojects-chords/chords/master/chords_control
 
 # Initial installation:
 python chords_control --config
