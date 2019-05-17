@@ -128,7 +128,7 @@ JSON Key Name
 If the data never shows up at the CHORDS site you are using, you can go back to “Integrations” on Particle, scroll all the way down to the bottom of your webhook and it provides further information under “Logs”.
 
 
-Thanks to Jeaime Powell of the [University of Texas](https://www.tacc.utexas.edu) for putting together these documents for us.
+Thanks to Je'aime Powell of the [University of Texas](https://www.tacc.utexas.edu) for putting together these documents for us.
 
 
 
