@@ -10,11 +10,13 @@ The website is published using GitHub Pages, and runs on the Jekyll framework, u
  If you want to work on the documentation, you will develop and test on your own machine. The instructions below will get a copy of the website up and running locally on your computer. 
 
 ### Prerequisites
-- Install the latest version of Ruby. On OSX, this is:
+- Install the latest version of Ruby.
+  - On OSX, this is:
 ```
 $ brew install ruby
 ```
-Visual Studio Code
+  - For Windows you will have to download ruby from this [tutorial](https://medium.com/ruby-on-rails-web-application-development/how-to-install-rubyonrails-on-windows-7-8-10-complete-tutorial-2017-fc95720ee059)
+  
 
 - Clone this repository, and navigate to it:
 ```
@@ -27,7 +29,7 @@ gem update
 ```
 - Install the gems:
 ```
-bundle install
+gem install bundler
 ```
 - Update the theme by running 
 ```
