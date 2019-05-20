@@ -295,5 +295,4 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-  github   :  [metadata]
+  github   :  [metadata] # this lets us access metadata from github.
