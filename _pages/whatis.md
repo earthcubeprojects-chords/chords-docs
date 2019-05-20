@@ -59,6 +59,10 @@ Please see [http://data.datacite.org/application/vnd.datacite.datacite+json/10.5
 
 CHORDS is being developed for the National Science Foundation’s EarthCube program under grants 1639750, 1639720, 1639640, 1639570 and 1639554.
 
-The documentation version is {% raw %}{{ site.github.build_revision }}{% endraw %}. <!--there is a way to make this print the current version of a repo. So It won't need constantly updated.-->
+The documentation version is (TODO)
 
-<!-- build-commit-id: {{ site.github.build_revision }} -->
+
+<!--{% raw %}{{ site.github.build_revision }}{% endraw %}.-->
+ <!--there is a way to make this print the current version of a repo. So It won't need constantly updated.-->
+
+build-commit-id: {{ site.github.build_revision }}

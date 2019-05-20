@@ -277,6 +277,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache #for remote theme method
+  - jekyll-github-metadata #to display metadata from the github repository
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -295,4 +296,4 @@ compress_html:
   ignore:
     envs: development
 
-github: [metadata]
+  github   :  [metadata]
