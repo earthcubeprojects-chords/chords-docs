@@ -86,7 +86,7 @@ classes: wide
   cd chords
   python chords_control -- run
   {% endhighlight %}
-  <embed src="https://www.youtube.com/embed/jR_XToKChYI" width="425" height="344">
+  {% include video id="jR_XToKChYI" provider="youtube" %}
   </ol>
   Now point your browser at the IP of the the system. <strong>localhost</strong>
   will often work as the IP, if the browser is on the same system.

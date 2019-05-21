@@ -37,7 +37,7 @@ You will automatically be set to "guest" so an Admin will need to change your pe
 **Tip for Admins** If you want to check user permissions while using two windows in your browser either make one browser incognito mode or open a new window in another web browser. Otherwise you will mix up the sites cookies and have to clear your browser cache.
 
 ### Portal Configuration
-  <embed src="https://www.youtube.com/embed/EnAhjU7vVAc" width="425" height="344">
+{% include video id="EnAhjU7vVAc" provider="youtube" %}
 
 Admins can edit the portal configuration as well as users with Site Configuration permission.
 

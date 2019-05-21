@@ -59,4 +59,4 @@ Please see [http://data.datacite.org/application/vnd.datacite.datacite+json/10.5
 
 CHORDS is being developed for the National Science Foundation’s EarthCube program under grants 1639750, 1639720, 1639640, 1639570 and 1639554.
 
-Git commit id for this documentation: {{ site.github.build_revision }} <!--need to only print first 7 chars. WEEEE extra credit -->
+Git commit id for this documentation: {{ site.github.build_revision| truncate: 7, "" }} <!--need to only print first 7 chars. WEEEE extra credit -->

@@ -8,8 +8,8 @@ permalink: /gettingstarted/jetstream/
 # toc_icon: "cog"
 classes: wide
 ---
-
-<embed src="https://www.youtube.com/embed/1fKdFjAQU8U" width="425" height="344">
+  
+{% include video id="1fKdFjAQU8U" provider="youtube" %}
 
 If you are working in academia then you are eligible to use a jetstream server.
 You will need to submit a request for an allocation on the system.

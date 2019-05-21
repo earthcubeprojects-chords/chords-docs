@@ -137,9 +137,7 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/earthcubeprojects-chords"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "chords@ucar.edu"
+ 
 
     #   # Not sure if chords has twitter or instagram
     # - label: "Instagram"
