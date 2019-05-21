@@ -18,11 +18,10 @@ To configure the site you either have to have Site Configuration or Admin privil
 ### Creating Users
 Users can create their own accounts but admins will have to give them permissions to view and work on other parts of the portal.
 To create/become a new user: 
-1. Click "Sign In" in the upper right corner of your Portal
-2. Click "Sign Up"
-3. Enter your "Email" and enter your new password
-**Note** Your password must be 8 characters long.
-4. Click Sign up
+1. Click "**Sign In**" in the upper right corner of your Portal
+2. Click "**Sign Up**"
+3. Enter your **Email** and enter your new **Password**, minimum of 8 characters long
+4. Click "**Sign up**"
 
 You will automatically be set to "guest" so an Admin will need to change your permissions before you can do more on the portal.
 
