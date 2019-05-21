@@ -4,21 +4,21 @@ title: CHORDS Setup and Control
 permalink: /gettingstarted/os/control/
 ---
 
-CHORDS is packaged as a collection of [Docker containers](https://hub.docker.com/r/ncareol/chords/). 
+CHORDS is packaged as a collection of [Docker containers](https://hub.docker.com/r/ncareol/chords/){:target="_blank"}. 
 Configuration and control of these containers are performed by running a python management script. The script
 shares the directory containing CHORDS configuration files.
 
 _Note: On systems where docker requires root, you may need to use sudo to run these commands._
 
 #### Requirements:
- * python 2.7 (Linux and MacOS have this by default; [install](https://www.python.org/downloads/windows/) on Windows)
- * curl (Linux and MacOS have this by default; [install](https://help.zendesk.com/hc/en-us/articles/229136847-Installing-and-using-cURL#install) on Windows)
+ * python 2.7 (Linux and MacOS have this by default; [install](https://www.python.org/downloads/windows/){:target="_blank"} on Windows)
+ * curl (Linux and MacOS have this by default; [install](https://help.zendesk.com/hc/en-us/articles/229136847-Installing-and-using-cURL#install){:target="_blank"} on Windows)
  * A running docker system
-   * OSX: [Docker for Mac](https://docs.docker.com/engine/installation/mac/#/docker-for-mac) is fantastic on the Mac.
-   * W10 Pro: [Docker for Windows](https://docs.docker.com/engine/installation/windows/#/docker-for-mac)
-   * W7: For us hapless Windows 7 users, we have to use the less elegant [Docker Toolbox](https://docs.docker.com/engine/installation/windows/#/docker-toolbox). 
-   * Linux: See [instructions](https://docs.docker.com/engine/installation/linux/) for various flavors of this OS.
-   * Raspberry Pi: See the easy to follow [instructions](https://github.com/earthcubeprojects-chords/chords-docs/wiki/Docker-on-Raspberry-Pi) for bringing up a Docker enabled
+   * OSX: [Docker for Mac](https://docs.docker.com/engine/installation/mac/#/docker-for-mac){:target="_blank"} is fantastic on the Mac.
+   * W10 Pro: [Docker for Windows](https://docs.docker.com/engine/installation/windows/#/docker-for-mac){:target="_blank"}
+   * W7: For us hapless Windows 7 users, we have to use the less elegant [Docker Toolbox](https://docs.docker.com/engine/installation/windows/#/docker-toolbox){:target="_blank"}. 
+   * Linux: See [instructions](https://docs.docker.com/engine/installation/linux/){:target="_blank"} for various flavors of this OS.
+   * Raspberry Pi: See the easy to follow [instructions](https://github.com/earthcubeprojects-chords/chords-docs/wiki/Docker-on-Raspberry-Pi){:target="_blank"} for bringing up a Docker enabled
    Raspberry Pi.
  * Port 25 must be open. Port 3000 must be open for the Grafana visualization, but you can use CHORDs without this 
    feature.
@@ -131,5 +131,5 @@ you should not change them. Otherwise, the Rails application will not be able to
 * _Note:_: If you find that localhost is not responding, try bringing CHORDS down and back up.
 
 ### More Information  
-* More [CHORDS Docker tips](https://github.com/NCAR/chords/wiki/Docker-Details-and-Tips) are available on the project wiki.
+* More [CHORDS Docker tips](https://github.com/earthcubeprojects-chords/chords/wiki/Docker-Details-and-Tips){:target="_blank"} are available on the project wiki.
 * The CHORDS docker images are served from Docker Hub repository. <!--[repository](https://hub.docker.com/r/ncareol/chords_app/).THIS LINK IS BROKEN-->

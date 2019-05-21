@@ -5,7 +5,7 @@ permalink: /gettingstarted/other/
 classes: wide
 ---
 
-A few recommendations include <a href="https://cloud.google.com/cloud-services-platform/">Google Engine</a>, <a href="https://www.linode.com/pricing">Linode</a>,   <a href="https://www.vultr.com/pricing/">Vultr</a>.
+A few recommendations include [Google Engine](https://cloud.google.com/cloud-services-platform/){:target="_blank"}, [Linode](https://www.linode.com/pricing){:target="_blank"}, [Vultr](https://www.vultr.com/pricing/){:target="_blank"}.
 
 Recommended CHORDS Resources are
 - At least 2 CPU’s

@@ -12,8 +12,28 @@ toc_icon: "cog"
 #classes: "wide"
 ---
 
+
 ## Site Configuration
 To configure the site you either have to have Site Configuration or Admin privileges. Configuration is used for managing many (but not all) of the portal characteristics. Sites, instruments, and variables are configured on their own specific pages.
+
+<!--Create images for this little blurb about logging in-->
+### Logging In
+* Click "Sign In" located at the upper right corner of your portal
+* Log into your portal using 
+`````
+User: admin@chordsrt.com
+Password: realtimedata
+`````
+* Change your password by clicking "Users"
+* Click on "admin@chordsrt.com"
+* Click "Edit User"
+* Click "Change Password" 
+* Enter your new Password and use *realtimedata* as the old password to save the changes
+* Click "Update"
+
+All Done!
+
+
 
 ### Creating Users
 Users can create their own accounts but admins will have to give them permissions to view and work on other parts of the portal.
@@ -66,7 +86,7 @@ Data Archive URL: This is the link to the archive of data being ingested by CHOR
 
 Time Zone
 
-Project Description: A short description of your project. This may use [HTML Markup]. If you haven’t used HTML markup or aren’t sure what it is, you may see this [link](http://www.simplehtmlguide.com/examplesheet.php).
+Project Description: A short description of your project. This may use [HTML Markup]. If you haven’t used HTML markup or aren’t sure what it is, you may see this [link](http://www.simplehtmlguide.com/examplesheet.php){:target="_blank"}.
 
 Logo File: You may upload a customized logo for your portal here. It will appear in the portal header page. 
 
@@ -157,7 +177,7 @@ There are two key places you will want to make sure to include a little extra me
 
 First, your measured properties and units are part of the metadata, but don’t just call them T or I. One letter doesn’t count for metadata as it’s needed to describe what the data is showing. So give it a more descriptive name (temp, WaterPr). Your data users will appreciate this as metadata is downloaded with your data. 
 
-Second, under your configuration page there is a section for entering JSON-LD metadata. Metadata from your entries create a JSON-LD record that is encapsulated within your Portal instance. These records allow Google (through its [Data Set Search tool](https://toolbox.google.com/datasetsearch)) and other harvesters to discover the existence of your server. This increases the visibility of your data on the web. For more information visit [Project 418](https://www.earthcube.org/p418)
+Second, under your configuration page there is a section for entering JSON-LD metadata. Metadata from your entries create a JSON-LD record that is encapsulated within your Portal instance. These records allow Google (through its [Data Set Search tool](https://toolbox.google.com/datasetsearch){:target="_blank"}) and other harvesters to discover the existence of your server. This increases the visibility of your data on the web. For more information visit [Project 418](https://www.earthcube.org/p418){:target="_blank"}
 
 ### Email
 * To change an email address simply click on **“Users”** and then click **“Edit”**  
@@ -406,7 +426,7 @@ Sample URLs for fetching data from the Portal:
 _myportal.org_ is the hostname of your Portal. The fields after "?" are quallifiers, each
 separated by "&".
 
-The number following _instruments/_ is the instrument identifier.
+The number following "_instruments/_" is the instrument identifier.
 
 Following the instrument identifier is the format that the data will be returned in (_csv, geojson, json or xml_).
 

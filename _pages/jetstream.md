@@ -16,7 +16,7 @@ You will need to submit a request for an allocation on the system.
 
 If you are NSF funded you can create a jetstream instance for free and use the larger sizes without worry. Allocations are available to faculty members and researchers, including postdoctoral researchers, at a U.S.-based institution. Eligible institutions include federal research labs or commercial organizations; however, special rules may apply if your institution is not a university or a two- or four-year college. Investigators with support from any funding source, not just NSF, are encouraged to apply. You can still set up a Trial Access account but you won’t be able to use an account with the same resources as the amazon t1 server. 
 For more information please visit
- [XSEDE](https://portal.xsede.org/allocations/startup#eligibility) to check their eligibility requirements.  
+ [XSEDE](https://portal.xsede.org/allocations/startup#eligibility){:target="_blank"} to check their eligibility requirements.  
 
 The trial resources include  
 
@@ -27,7 +27,7 @@ The trial resources include
 
 ## How to enroll in the Jetstream Trial Allocation  
 
-1. Go to the [XSEDE portal](https://portal.xsede.org) 
+1. Go to the [XSEDE portal](https://portal.xsede.org){:target="_blank"} 
 
 2. Click "Create Account" on the left side of your screen.
 <figure>
@@ -38,7 +38,7 @@ The trial resources include
 
 4. Upon receipt of the email notification click the link in the email to verify your account and set your username and password. 
 
-5. Following account verification, if not already logged in, go to [https://portal.xsede.org/](https://portal.xsede.org/), click "Sign In" and sign in with the username and password set in the verification step.
+5. Following account verification, if not already logged in, go to [https://portal.xsede.org/](https://portal.xsede.org/){:target="_blank"}, click "Sign In" and sign in with the username and password set in the verification step.
 You will be asked to read and accept the User Responsibilities form. This form outlines acceptable use to protect shared resources and intellectual property.
 
 6. Click on "MyXSEDE" tab in the XSEDE User Portal
@@ -62,7 +62,7 @@ A Successful Enrollment will show:
 </figure>
 Wait approximately 4 hours for your allocation to propagate through the authentication system.
 
-9. Once you’ve set up your account go to [Jetstream](https://use.jetstream-cloud.org/application/images)
+9. Once you’ve set up your account go to [Jetstream](https://use.jetstream-cloud.org/application/images){:target="_blank"}
 
 10. Select XSEDE and hit continue 
 <figure>
@@ -108,7 +108,7 @@ Before you can get started with CHORDS you will need to get an Image running.
   <img  class="img-responsive" src="{{ site.baseurl }}/assets/images/JetstreamShell.png"><!--Using liquid to set path for images.-->
 </figure>
 
-9. Follow  [Run CHORDS Locally]({{site.baseurl}}/gettingstarted/os/) instructions for Ubuntu.
+9. Follow  [Run CHORDS Locally]({{site.baseurl}}/gettingstarted/os/){:target="_blank"} instructions for Ubuntu.
 10. Once you’ve finished the instructions go back to your Jetstream page.
 11. Copy the IP address
 <figure> 

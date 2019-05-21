@@ -68,7 +68,7 @@ To find your api key:
 
 
 ## Particle IoT hardware
-How to create a JSON string using [Particle](https://www.particle.io)
+How to create a JSON string using [Particle](https://www.particle.io){:target="_blank"}
 
 1. In the beginning of your program add the line: ``#define ARDUINOJSON_ENABLE_ARDUINO_STRING 1``
 2. Add the library ArduinoJSON ``#include <ArduinoJson.h>``
@@ -103,7 +103,7 @@ For this next step make sure you have the following from your CHORDS portal
 **API Key** (Under users)  
 **URL** (selecting “Data URLs” and then everything up to the “?”)  
 
-- Log into your [Particle Cloud Console](https://login.particle.io/login?redirect=https://console.particle.io/devices)
+- Log into your [Particle Cloud Console](https://login.particle.io/login?redirect=https://console.particle.io/devices){:target="_blank"}
 - On the left hand side select **“Integrations”** then **“New Integration”**
 - Click **"Webhook"**
 <img  class="img-responsive" src="{{ site.baseurl }}/assets/images/Webhook.png"><!--Using liquid to set path for images.-->
@@ -128,7 +128,7 @@ JSON Key Name
 If the data never shows up at the CHORDS site you are using, you can go back to “Integrations” on Particle, scroll all the way down to the bottom of your webhook and it provides further information under “Logs”.
 
 
-Thanks to Je'aime Powell of the [University of Texas](https://www.tacc.utexas.edu) for putting together these documents for us.
+Thanks to Je'aime Powell of the [University of Texas](https://www.tacc.utexas.edu){:target="_blank"} for putting together these documents for us.
 
 
 
@@ -148,13 +148,13 @@ To download data first go to the Data tab in your CHORDS portal. From here you c
 {% include video id="B02M7pXEybM" provider="youtube" %}
 
 
-[Grafana](https://grafana.com) is an open-source visualization system that allows you to create powerful data dashboards, right from the browser. The dashboards are very responsive because they fetch data directly from the CHORDS database. The extensive [Grafana documentation](http://docs.grafana.org) explains how to unleash the full capability of the system.
+[Grafana](https://grafana.com){:target="_blank"} is an open-source visualization system that allows you to create powerful data dashboards, right from the browser. The dashboards are very responsive because they fetch data directly from the CHORDS database. The extensive [Grafana documentation](http://docs.grafana.org){:target="_blank"} explains how to unleash the full capability of the system.
 
 However, the following tutorial explains quickly how to configure Grafana to interact with CHORDS, and how to create a simple dashboard.
 
 **Note: You should have the portal configured with at least one site/instrument/variable before trying to create a dashboard. If there is no data in the portal, you can create some test data using the simulation function.**
 
-Extra credit: once you have been able to make a simple Grafana graph, see this [tutorial](http://docs.grafana.org/features/datasources/influxdb/) for indepth instructions on database access and calculations.
+Extra credit: once you have been able to make a simple Grafana graph, see this [tutorial](http://docs.grafana.org/features/datasources/influxdb/){:target="_blank"} for indepth instructions on database access and calculations.
 
 This is an example of Grafana panel embedding. The iframe element is:
 ```

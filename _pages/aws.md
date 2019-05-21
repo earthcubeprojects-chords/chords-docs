@@ -9,9 +9,9 @@ If you already have an AWS account, just go to [Site configuration]({{site.baseu
 
 
 ## 1. Sign up in AWS
-* Go to the <a href="https://aws.amazon.com/s/dm/optimization/server-side-test/free-tier/free_np/">Amazon</a> web services website. Click on start a <em>free</em> account. We generally recommend the small account (t2.small) as it has more space for recording data and won’t overwhelm as quickly as the micro account (t2.micro). However, if you are unsure as to which account will suit you the micro account is free the first year and you can upgrade if you end up running out of space. For more information on see <a href=" https://aws.amazon.com/ec2/instance-types/"> Instance Types</a>
+* Go to the [Amazon](https://aws.amazon.com/s/dm/optimization/server-side-test/free-tier/free_np/){:target="_blank"} web services website. Click on start a <em>free</em> account. We generally recommend the small account (t2.small) as it has more space for recording data and won’t overwhelm as quickly as the micro account (t2.micro). However, if you are unsure as to which account will suit you the micro account is free the first year and you can upgrade if you end up running out of space. For more information on accounts see [Instance Types](https://aws.amazon.com/ec2/instance-types/){:target="_blank"}
 
-**Note:** when you first sign into your account it’s automatically signed up for all services in AWS (e.g. lambda). You are only charged for the services that you use. For more information visit <a href="https://aws.amazon.com/lambda/"> Amazon Lambda</a>
+**Note:** when you first sign into your account it’s automatically signed up for all services in AWS (e.g. lambda). You are only charged for the services that you use. For more information visit [Amazon Lambda](https://aws.amazon.com/lambda/){:target="_blank"}
 
 <figure>
     <a href = "{{site.baseurl}}/assets/images/AWS_START.png"><img class="img-responsive" src="{{site.baseurl}}/assets/images/AWS_START.png"></a>
@@ -32,7 +32,7 @@ If you already have an AWS account, just go to [Site configuration]({{site.baseu
 <hr>
   
 ## 2. Create an IAM User (Security)
-* Sign into <em> Identity and Access Management</em> (IAM) console at <a href="https://console.aws.amazon.com/iam/">https://console.aws.amazon.com/iam/</a>
+* Sign into [Identity and Access Management](https://console.aws.amazon.com/iam/){:target="_blank"} (IAM) 
 * In the navigation pane select **Users**, and then click <em>**Add User**</em>
 <br>
 <hr>
@@ -68,7 +68,7 @@ https://[aws account number goes here].signin.aws.amazon.com/console/
  `````
  https://123456789101.signin.aws.amazon.com/console/
 `````
-**Note:** If you need to find your account number again go to “Your AWS Account ID and It’s Alias” at http://docs.aws.amazon.com/IAM/latest/UserGuide/console_account-alias.html
+**Note:** If you need to find your account number again go to [Your AWS Account ID and It’s Alias](http://docs.aws.amazon.com/IAM/latest/UserGuide/console_account-alias.html){:target="_blank"}
 
 * Click on the link provided by AWS and enter the IAM username and password you made. Once you’ve successfully logged in your navigation bar at the top should show <em> your_user_name@your_aws_account_id </em>
 <figure>
