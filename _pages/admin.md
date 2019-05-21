@@ -15,14 +15,25 @@ toc_icon: "cog"
 ## Site Configuration
 To configure the site you either have to have Site Configuration or Admin privileges. Configuration is used for managing many (but not all) of the portal characteristics. Sites, instruments, and variables are configured on their own specific pages.
 
-<!--TO DO: make new configuration video with sound!-->
+### Creating Users
+Users can create their own accounts but admins will have to give them permissions to view and work on other parts of the portal.
+To create/become a new user: 
+1. Click "Sign In" in the upper right corner of your Portal
+2. Click "Sign Up"
+3. Enter your "Email" and enter your new password
+**Note** Your password must be 8 characters long.
+4. Click Sign up
+
+You will automatically be set to "guest" so an Admin will need to change your permissions before you can do more on the portal.
+
 ### Editing User Permissions
 
 1. To edit users go to the Users tab
 2. Click on the email/username of the user you want to edit
 3. Click "Edit User"
 4. Select the permissions you want for your user
-5. Click "Update User"
+5. Make sure to unselect "guest"
+6. Click "Update User"
 
 **Tip for Admins** If you want to check user permissions while using two windows in your browser either make one browser incognito mode or open a new window in another web browser. Otherwise you will mix up the sites cookies and have to clear your browser cache.
 
@@ -31,7 +42,7 @@ To configure the site you either have to have Site Configuration or Admin privil
 
 Admins can edit the portal configuration as well as users with Site Configuration permission.
 
-1. Click on “Configure” selection in the upper right part of the screen. It will take you to a page called Configuration
+* Click on “Configure” selection in the upper right part of the screen. It will take you to a page called Configuration
 You will find buttons that will allow you to 
 - Export/Import previous Configuration
 - Export/Import previous InfluxDB Data
@@ -41,7 +52,7 @@ You will find buttons that will allow you to
   <a href="{{ site.baseurl }}/assets/images/Configure.png"><img  class="img-responsive" src="{{ site.baseurl }}/assets/images/Configure.png"></a>
 </figure>
 
-2. Fill out the following under Standard Options: 
+* Fill out the following under Standard Options: 
 Project name
 
 DOI (optional)
@@ -70,14 +81,14 @@ Do NOT modify the Measurement Security Key
  <a href="{{ site.baseurl }}/assets/images/ConfigureFields.png"> <img  class="img-responsive" src="{{ site.baseurl }}/assets/images/ConfigureFields.png"></a>
 </figure>
 
-3. Select Metadata Ontology Vocabularies.
-4. Enter CUAHSI Data Services, if desired.
-5. Fill out contact information.
+* Select Metadata Ontology Vocabularies.
+* Enter CUAHSI Data Services, if desired.
+* Fill out contact information.
 <figure>
   <a href = "{{ site.baseurl }}/assets/images/ConfigureContact.png"> <img  class="img-responsive" src="{{ site.baseurl }}/assets/images/ConfigureContact.png"></a><!--Using liquid to set path for images.-->
 </figure>
 
-6. Press Save.
+* Press Save.
 
 <figure>
   <a href = "{{ site.baseurl }}/assets/images/ConfigureSave.png"><img  class="img-responsive" src="{{ site.baseurl }}/assets/images/ConfigureSave.png"> </a><!--Using liquid to set path for images.-->
@@ -150,7 +161,7 @@ First, your measured properties and units are part of the metadata, but don’t 
 Second, under your configuration page there is a section for entering JSON-LD metadata. Metadata from your entries create a JSON-LD record that is encapsulated within your Portal instance. These records allow Google (through its [Data Set Search tool](https://toolbox.google.com/datasetsearch)) and other harvesters to discover the existence of your server. This increases the visibility of your data on the web. For more information visit [Project 418](https://www.earthcube.org/p418)
 
 ### Email
-1. To change an email address simply click on **“Users”** and then click **“Edit”**  
+* To change an email address simply click on **“Users”** and then click **“Edit”**  
 <figure>
   <a href = "{{ site.baseurl }}/assets/images/Email.png"><img  class="img-responsive" src="{{ site.baseurl }}/assets/images/Email.png"></a> <!--Using liquid to set path for images.-->
 </figure>
@@ -163,7 +174,7 @@ Second, under your configuration page there is a section for entering JSON-LD me
   <a href = "{{ site.baseurl }}/assets/images/EmailEdit.png"><img  class="img-responsive" src="{{ site.baseurl }}/assets/images/EmailEdit.png"></a><!--Using liquid to set path for images.-->
 </figure>
 
-2. Type email into the Email Box and click **“Update User”**
+* Type email into the Email Box and click **“Update User”**
 <figure>
   <a href = "{{ site.baseurl }}/assets/images/EmailUpdate.png"><img  class="img-responsive" src="{{ site.baseurl }}/assets/images/EmailUpdate.png"></a><!--Using liquid to set path for images.-->
 </figure>
@@ -484,11 +495,11 @@ You can also manually back up your portal by saving your configuration and datab
 </figure>
 
 To save Configuration:
-1. Go to Configuration tab
-2. Click on **Export Configuration**  
+* Go to Configuration tab
+* Click on **Export Configuration**  
 
 To save Influxdb data:
-1. Go to Configuration tab
-2. Click on either **Export Influxdb data**
+* Go to Configuration tab
+* Click on either **Export Influxdb data**
 
 You can also upload previous information from an old portal to a new one by using the **Import** buttons located at the top of the configuration page.
