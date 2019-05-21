@@ -12,7 +12,7 @@ toc_icon: "cog"
 ---
 
 ## Chords_Control
-Chords_Control is the CHORDS management script. Used to manage the CHORDS portal configuration, running/stopping the portal, and updating the portal software.
+chords_control is the CHORDS management script. Used to manage the CHORDS portal configuration, running/stopping the portal, and updating the portal software.
 
  
 There are several main ways to use chords_control
