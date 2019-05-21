@@ -106,9 +106,12 @@ author:
   name             : "Sharing is Caring!"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "CHORDS"
-  location         : "EarthCube"
+#  location         : "EarthCube"
   email            : "chords@ucar.edu"
   links:
+    - label: "EarthCube"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.earthcube.org"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/NSFearthcube/"

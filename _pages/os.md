@@ -41,6 +41,15 @@ classes: wide
   <div id="tabs-Macos"> <!-- content under tab -->
   <div id="macos" class="tab-pane">
   <ol>
+  <li>Make sure you have <a href="https://www.python.org/ftp/python/2.7.16/python-2.7.16-macosx10.6.pkg">Python 2.7 for Mac</a>.</li>
+  <li>Verify that python is working:
+  {% highlight python %} 
+  python
+  Python 2.7.16 (v2.7.16:413a49145e, Mar  4 2019, 01:37:19) [MSC v.1500 64 bit (AMD64)] on win32
+  Type "help", "copyright", "credits" or "license" for more information.
+  >>> quit()
+  {% endhighlight %}
+  </li>
   <li>Install <a href="https://docs.docker.com/v17.09/docker-for-mac/install/">Docker for Mac</a>.</li>
   <li>Run Docker. Configure its preferences to start Docker automatically. </li>
   <li>Note when you see the whale in the menu bar (upper right corner of your screen) docker is up and running!</li>
@@ -79,6 +88,9 @@ classes: wide
   {% endhighlight %}
   <embed src="https://www.youtube.com/embed/jR_XToKChYI" width="425" height="344">
   </ol>
+  Now point your browser at the IP of the the system. <strong>localhost</strong>
+  will often work as the IP, if the browser is on the same system.
+  <strong>Be sure to use http:// (not https://)</strong>.
   </div>
   </div>
 
@@ -157,6 +169,9 @@ python chords_control --run
   python chords_control -- run
   {% endhighlight %}
   </ol>
+Now point your browser at the IP of the the system. <strong>localhost</strong>
+will often work as the IP, if the browser is on the same system.
+<strong>Be sure to use http:// (not https://)</strong>.
   </div>
 </div>
 See the [detailed instructions]({{site.baseurl}}/gettingstarted/os/control/) if the Quick Start recipes are not adequate
@@ -165,3 +180,4 @@ to get your portal running, and for additional information.
 $("#tabs").tabs();
 </script>
 
+## Once your portal is running visit [portal configuration]({{site.baseurl}}/admin/) to configure your portal.

@@ -25,6 +25,6 @@ python chords_control --update
 python chords_control --stop
 python chords_control --run
 {% endhighlight %}
-Now point your browser at the IP of the the system. localhost
+Now point your browser at the IP of the the system. <strong>localhost</strong>
 will often work as the IP, if the browser is on the same system.
 <strong>Be sure to use http:// (not https://)</strong>.
