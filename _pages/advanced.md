@@ -11,7 +11,7 @@ toc_label: "Table of Contents"
 toc_icon: "cog"
 ---
 
-## Chords_Control
+## chords_control
 chords_control is the CHORDS management script. Used to manage the CHORDS portal configuration, running/stopping the portal, and updating the portal software.
 
  
