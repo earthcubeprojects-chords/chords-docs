@@ -55,7 +55,7 @@ We request that researchers cite its use in any relevant publication or other co
 Daniels, M. D., Kerkez, B., Chandrasekar, V., Graves, S., Stamps, D. S., Martin, C., Botnick, A., Gooch, R., Bartos, M., Jones, J., Keiser, K. (2016). Cloud-Hosted Real-time Data Services for the Geosciences (CHORDS) software (Version 0.9). UCAR/NCAR - Earth Observing Laboratory. https://doi.org/10.5065/d6v1236q
 </div>
 
-Please see [http://data.datacite.org/application/vnd.datacite.datacite+json/10.5065/D6V1236Q](http://data.datacite.org/application/vnd.datacite.datacite+json/10.5065/D6V1236Q){:target="_blank"} to view the relevant DOI metadata fields.
+Please see [data.datacite.org](http://data.datacite.org/application/vnd.datacite.datacite+json/10.5065/D6V1236Q){:target="_blank"} to view the relevant DOI metadata fields.
 
 CHORDS is being developed for the National Science Foundation’s EarthCube program under grants 1639750, 1639720, 1639640, 1639570 and 1639554.
 
