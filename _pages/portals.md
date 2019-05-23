@@ -28,7 +28,7 @@ header:
 
 [IS-GEO](http://is-geo.chordsrt.com){:target="_blank"} (Sensor network from the IS-GEO 2018 RCN on the big island of Hawaii)
 
-[GLOBE](http://chords.globedata.ws/){:target="_blank"} (Global Learning and Obeservations to benefit the Environment)
+[GLOBE](http://chords.globedata.ws/){:target="_blank"} (Global Learning and Observations to benefit the Environment)
 
 ### In the works and/or awaiting configuration for a future deployment
 canary.chordsrt.com

@@ -144,9 +144,12 @@ To download data first go to the Data tab in your CHORDS portal. From here you c
 4. You can select "Data URLs" then select the generated url. Combine this with custom code to continue to pull specific data types.
 
 ### Grafana
-
+  
+Beginning Grafana
 {% include video id="B02M7pXEybM" provider="youtube" %}
 
+How to make alerts on Grafana (Provided by Virginia Tech)
+{% include video id="j8CVsUEH1V4" provider="youtube" %}
 
 [Grafana](https://grafana.com){:target="_blank"} is an open-source visualization system that allows you to create powerful data dashboards, right from the browser. The dashboards are very responsive because they fetch data directly from the CHORDS database. The extensive [Grafana documentation](http://docs.grafana.org){:target="_blank"} explains how to unleash the full capability of the system.
 
