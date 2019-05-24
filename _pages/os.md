@@ -86,7 +86,8 @@ classes: wide
   cd chords
   python chords_control -- run
   {% endhighlight %}
-  {% include video id="jR_XToKChYI" provider="youtube" %}
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/jR_XToKChYI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </ol>
   Now point your browser at the IP of the the system. <strong>localhost</strong>
   will often work as the IP, if the browser is on the same system.
