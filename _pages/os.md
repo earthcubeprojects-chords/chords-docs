@@ -41,6 +41,8 @@ classes: wide
   <div id="tabs-Macos"> <!-- content under tab -->
   <div id="macos" class="tab-pane">
   <ol>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/jR_XToKChYI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
   <li>Make sure you have <a href="https://www.python.org/ftp/python/2.7.16/python-2.7.16-macosx10.6.pkg">Python 2.7 for Mac</a>.</li>
   <li>Verify that python is working:
   {% highlight python %} 
@@ -87,7 +89,6 @@ classes: wide
   python chords_control -- run
   {% endhighlight %}
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/jR_XToKChYI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </ol>
   Now point your browser at the IP of the the system. <strong>localhost</strong>
   will often work as the IP, if the browser is on the same system.
