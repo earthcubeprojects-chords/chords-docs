@@ -45,14 +45,6 @@ To create/become a new user:
 
 You will automatically be set to "guest" so an Admin will need to change your permissions before you can do more on the portal.
 
-### Editing User Permissions
-
-1. To edit users go to the Users tab
-2. Click on the email/username of the user you want to edit
-3. Click "Edit User"
-4. Select the permissions you want for your user
-5. Make sure to unselect "guest"
-6. Click "Update User"
 
 **Tip for Admins** If you want to check user permissions while using two windows in your browser either make one browser incognito mode or open a new window in another web browser. Otherwise you will mix up the sites cookies and have to clear your browser cache.
 
@@ -206,11 +198,18 @@ Admins and Site Configs do not have permission to create test data or send data 
 * Click **Renew API Key** 
 
 ## User Management
-To change a User’s information or permissions simply click on **“Users”** and then click **“Edit”**.
+
+### Editing User Permissions
+
+1. To edit users go to the Users tab
+2. Click on the email/username of the user you want to edit
+3. Click "Edit User"
+4. Select the permissions you want for your user
+5. Make sure to unselect "guest"
+6. Click "Update User"
 
 <font color="red">Note:</font> if you’re going to update a user make SURE to uncheck the “guest” box before saving your changes. If you don’t “guest” will uncheck all your previous updates and the user will have NO permissions. 
 
-When you are done click **“Update User”**
 <figure>
   <a href = "{{ site.baseurl }}/assets/images/UserManagement.png"><img  class="img-responsive" src="{{ site.baseurl }}/assets/images/UserManagement.png"></a><!--Using liquid to set path for images.-->
 </figure>
