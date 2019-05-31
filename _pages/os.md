@@ -55,6 +55,13 @@ classes: wide
   <li>Install <a href="https://docs.docker.com/v17.09/docker-for-mac/install/">Docker for Mac</a>.</li>
   <li>Run Docker. Configure its preferences to start Docker automatically. </li>
   <li>Note when you see the whale in the menu bar (upper right corner of your screen) docker is up and running!</li>
+  <li>Open a command window, and verify that docker is working:
+  {% highlight sh %} 
+  docker run hello-world
+  Hello from Docker!
+  This message shows that your installation appears to be working correctly.
+  ...
+ {% endhighlight %} </li>
   <li>Then in a terminal window:
   {% highlight sh %}
   mkdir chords
