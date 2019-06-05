@@ -2,8 +2,8 @@
 layout: single
 title: Advanced
 header:
-  overlay_color: "#11999e"
-  overlay_filter: "1.0"
+  overlay_color: "#000"
+  overlay_filter: "0.5"
 permalink: /advanced/
 toc: true
 toc_sticky: true
