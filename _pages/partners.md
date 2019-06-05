@@ -17,7 +17,7 @@ classes: wide
   </div>
   <div class="col-sm-8">
       The CHORDS project is inspired and funded by the 
-      <br/>National Science Foundation <a href="http://earthcube.org/">EarthCube</a> initiative.
+      <br/>National Science Foundation <a href="http://earthcube.org/" target="_blank">EarthCube</a> initiative.
   </div>
 </div>
 </div>
@@ -33,7 +33,7 @@ classes: wide
     </a>
   </div>
   <div class="col-sm-8">
-   <a href="http://ncar.ucar.edu/">National Center for Atmospheric Research</a>
+   <a href="http://ncar.ucar.edu/" target="_blank">National Center for Atmospheric Research</a>
   </div>
 
 
@@ -46,7 +46,7 @@ classes: wide
     </a>
   </div>
   <div class="col-sm-8">
-   <a href="http://www.uah.edu/">University of Alabama in Huntsville</a>
+   <a href="http://www.uah.edu/" target="_blank">University of Alabama in Huntsville</a>
   </div>
 </div>
 </p>
@@ -59,7 +59,7 @@ classes: wide
     </a>
   </div>
   <div class="col-sm-8">
-   <a href="https://www.umich.edu/">University of Michigan</a>
+   <a href="https://www.umich.edu/" target="_blank">University of Michigan</a>
   </div>
 </div>
 </p>
@@ -72,7 +72,7 @@ classes: wide
     </a>
   </div>
   <div class="col-sm-8">
-   <a href="https://www.colostate.edu/">Colorado State University</a>
+   <a href="https://www.colostate.edu/" target="_blank">Colorado State University</a>
   </div>
 </div>
 </p>
@@ -85,7 +85,7 @@ classes: wide
     </a>
   </div>
   <div class="col-sm-8">
-   <a href="https://vt.edu/">Virginia Tech</a>
+   <a href="https://vt.edu/" target="_blank">Virginia Tech</a>
   </div>
 </div>
 </p>

@@ -64,29 +64,30 @@ You will find buttons that will allow you to
 </figure>
 
 * Fill out the following under Standard Options: 
-Project name
 
-DOI (optional)
+**Project name**
 
-Affiliation
+**DOI (optional)**
 
-Page title (e.g. the name of the project you’re working such as “Orcas”, “3D-PAWS”, “STORM”, “NCAR weather stations”, etc.)
+**Affiliation**
 
-Domain name: The domain name should either be the fully qualified domain name of the portal (if you have one) or the IP address of the server on which the portal is hosted, e.g. from AWS. Make sure to change the default value as the archiving function may fail if it is not set!
+**Page title** (e.g. the name of the project you’re working such as “Orcas”, “3D-PAWS”, “STORM”, “NCAR weather stations”, etc.)
 
-Data Archive URL: This is the link to the archive of data being ingested by CHORDS. Users will generally archive the data in the portal on regular intervals.
+**Domain name** The domain name should either be the fully qualified domain name of the portal (if you have one) or the IP address of the server on which the portal is hosted, e.g. from AWS. Make sure to change the default value as the archiving function may fail if it is not set!
 
-Time Zone
+**Data Archive URL** This is the link to the archive of data being ingested by CHORDS. Users will generally archive the data in the portal on regular intervals.
 
-Project Description: A short description of your project. This may use [HTML Markup]. If you haven’t used HTML markup or aren’t sure what it is, you may see this [link](http://www.simplehtmlguide.com/examplesheet.php){:target="_blank"}.
+**Time Zone**
 
-Logo File: You may upload a customized logo for your portal here. It will appear in the portal header page. 
+**Project Description** A short description of your project. This may use [HTML Markup]. If you haven’t used HTML markup or aren’t sure what it is, you may see this [link](http://www.simplehtmlguide.com/examplesheet.php){:target="_blank"}.
 
-Max Download Points: Set how many maximum points you want in your data downloading. 
+**Logo File** You may upload a customized logo for your portal here. It will appear in the portal header page. 
+
+**Max Download Points** Set how many maximum points you want in your data downloading. 
 
 Note: Do NOT make this blank
 
-Select Security options: Default security options enable others to view data. If you don’t want to let guests or others view your data check “Restrict view of data”.
+**Select Security options** Default security options enable others to view data. If you don’t want to let guests or others view your data check “Restrict view of data”.
 Do NOT modify the Measurement Security Key
 <figure>
  <a href="{{ site.baseurl }}/assets/images/ConfigureFields.png"> <img  class="img-responsive" src="{{ site.baseurl }}/assets/images/ConfigureFields.png"></a>
@@ -136,21 +137,22 @@ Fill out the blank spaces and click **Create Instrument**
 </figure>
 
 Definitions
-Name: Name you gave the instrument
 
-Sensor_Id: ID for a specific sensor. This takes priority over Instrument_ID and creates a unique key. This allows the sensor to be moved from one instrument to another if need be and still retain the same URL format for uploading data. 
+**Name:** Name you gave the instrument
 
-Topic Category: Pull down menu of categories and instruments
+**Sensor_Id:** ID for a specific sensor. This takes priority over Instrument_ID and creates a unique key. This allows the sensor to be moved from one instrument to another if need be and still retain the same URL format for uploading data. 
 
-Description: (Add additional information you feel necessary here. Like location, website, or purpose.)
+**Topic Category:** Pull down menu of categories and instruments
 
-Site: Place instrument is located at.
+**Description:** (Add additional information you feel necessary here. Like location, website, or purpose.)
 
-Display Points: How many points are shown on the graph.
+**Site:** Place instrument is located at.
 
-Plot offset: Time the plot for display.
+**Display Points:** How many points are shown on the graph.
 
-Sample Rate: How often you are sampling data, in seconds (fastest is 1 second). It is also used for visual purposes as this determines when the little circle next to the instrument is green or red. 
+**Plot offset:** Time the plot for display.
+
+**Sample Rate:** How often you are sampling data, in seconds (fastest is 1 second). It is also used for visual purposes as this determines when the little circle next to the instrument is green or red. 
 
 ### Variables
 
