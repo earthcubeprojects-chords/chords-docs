@@ -30,6 +30,8 @@ header:
 
 [GLOBE](http://chords.globedata.ws/){:target="_blank"} (Global Learning and Observations to benefit the Environment)
 
+[Planet Texas 2050](http://chords.tacc.cloud/){:target="_blank"} (Planet Texas 2050 is an eight-year sprint to find solutions that will make our communities more resilient and better prepared.)
+
 ### In the works and/or awaiting configuration for a future deployment
 canary.chordsrt.com
 
