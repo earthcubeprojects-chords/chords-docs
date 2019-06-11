@@ -67,7 +67,7 @@ You will find buttons that will allow you to
 
 **Project name**
 
-**"DOI (optional, but please use the CHORDS DOI of 10.5065/d6v1236q or another DOI that is linked to the CHORDS DOI in the metadata)."**
+**DOI** (optional, but please use the CHORDS DOI of 10.5065/d6v1236q or another DOI that is linked to the CHORDS DOI in the metadata)
 
 **Affiliation**
 
