@@ -374,7 +374,12 @@ Measurements for variables are specified by *shortname=value* pairs. You do not 
 
     curl = curl_easy_init();
     if(curl) {
+      // if using instrument_id:
       char* url = "http://chords.dyndns.org/measurements/url_create?instrument_id=25&wdir=121&wspd=21.4&wmax=25.3&tdry=14.3&rh=55&pres=985.3&raintot=0&batv=12.4&at=2015-08-20T19:50:28&email=[USER_EMAIL]&api_key=[API_KEY]";
+
+      // if using sensor_id:
+      char* url = "http://chords.dyndns.org/measurements/url_create?sensor_id=your_sensor_id&wdir=121&wspd=21.4&wmax=25.3&tdry=14.3&rh=55&pres=985.3&raintot=0&batv=12.4&at=2015-08-20T19:50:28&email=[USER_EMAIL]&api_key=[API_KEY]"; 
+
       curl_easy_setopt(curl, CURLOPT_URL, url);
       /* example.com is redirected, so we tell libcurl to follow redirection */
       curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
