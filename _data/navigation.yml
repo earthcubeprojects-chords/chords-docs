@@ -11,10 +11,10 @@ main:
   - title: "Get Started"
     url: /gettingstarted/
 
-  - title: "Users"
+  - title: "Using CHORDS"
     url: /users/
 
-  - title: "Admin"
+  - title: "Portal Configuration"
     url: /admin/
 
   - title: "Advanced"
@@ -29,25 +29,5 @@ main:
   - title: "3D Paws"
     url: http://3d.chordsrt.com/
 
-#testing for custom toc
-sidebar-adminToc:
-  - title: "Site Configuration"
-    text: "WHY YOU NO WORK"
-    children:
-      - title: "Editing User Permissions"
-        text: 
-      - title: "Portal Configuration"
-        url: /
-      - title: "Sites"
-        url: /
-      - title: "Variables"
-        url: /
-      - title: "Metadata"
-        url: /
-      - title: "Email"
-        url: /
-  - title: "User Management"
-    url: /
-  - title: "Data Backup"
-    text: /
+
 

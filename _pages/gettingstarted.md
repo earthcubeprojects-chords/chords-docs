@@ -42,7 +42,7 @@ Once you've created your Jetstream server and portal you'll need to configure it
 <a href="{{site.baseurl}}/gettingstarted/config" class="btn btn--primary">Configure the Portal</a> -->
 
 
-## Option 3: Run CHORDS locally
+## Option 3: Run CHORDS on prefered Operating System
 
 **CHORDS Portal**
 

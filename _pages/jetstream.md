@@ -108,7 +108,7 @@ Before you can get started with CHORDS you will need to get an Image running.
   <img  class="img-responsive" src="{{ site.baseurl }}/assets/images/JetstreamShell.png"><!--Using liquid to set path for images.-->
 </figure>
 
-9. Follow  [Run CHORDS Locally]({{site.baseurl}}/gettingstarted/os/){:target="_blank"} instructions for Ubuntu.
+9. Follow  [Run CHORDS]({{site.baseurl}}/gettingstarted/os/){:target="_blank"} instructions for Ubuntu.
 10. Once you’ve finished the instructions go back to your Jetstream page.
 11. Copy the IP address
 <figure> 
