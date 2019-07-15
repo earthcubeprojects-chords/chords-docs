@@ -127,3 +127,4 @@ and disable the rollback, so that the instance is left running. To do this, when
 open the Advanced section, and change _Rollback on Failure_ to *No*. This will
 keep the instance running when the provisioning fails, so that you can ssh in and diagnose the problem.
 
+[Continue to Portal Configuration]({{site.baseurl}}/admin/){: .btn .btn--info}

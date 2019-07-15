@@ -97,4 +97,7 @@ https://[aws account number goes here].signin.aws.amazon.com/console/
     <a href = "{{ site.baseurl }}/assets/images/AWS_Step7.png"><img class="img-responsive" src="{{ site.baseurl }}/assets/images/AWS_Step7.png"></a>
 </figure>
 
-All done, now go to this link to [Create Portal in AWS]({{site.baseurl}}/gettingstarted/create) <!--this needs changed to go to current website link-->
+All done, now to create your portal.
+
+
+[Create Portal in AWS]({{site.baseurl}}/gettingstarted/create){: .btn .btn--info}

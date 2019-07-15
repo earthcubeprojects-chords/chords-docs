@@ -189,4 +189,5 @@ to get your portal running, and for additional information.
 $("#tabs").tabs();
 </script>
 
-## Once your portal is running visit [portal configuration]({{site.baseurl}}/admin/) to continue setting up your portal.
+<!--## Once your portal is running visit [portal configuration]({{site.baseurl}}/admin/) to continue setting up your portal.-->
+[Continue to Portal Configuration]({{site.baseurl}}/admin/){: .btn .btn--info}
