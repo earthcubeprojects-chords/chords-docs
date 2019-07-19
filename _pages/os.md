@@ -183,6 +183,11 @@ will often work as the IP, if the browser is on the same system.
 <strong>Be sure to use http:// (not https://)</strong>.
   </div>
 </div>
+<br>
+When you first start up your CHORDS portal don't panic if you get **502** error. It's a good sign!
+<a href = "{{ site.baseurl }}/assets/images/goodError.png"><img class="img-responsive" src="{{ site.baseurl }}/assets/images/goodError.png"></a>
+Just hit refresh on your browser until your portal shows up.
+<a href = "{{ site.baseurl }}/assets/images/CHORDS success.png"><img class="img-responsive" src="{{ site.baseurl }}/assets/images/CHORDS success.png"></a>
 See the [detailed instructions]({{site.baseurl}}/gettingstarted/os/control/) if the Quick Start recipes are not adequate
 to get your portal running, and for additional information.
 <script>
