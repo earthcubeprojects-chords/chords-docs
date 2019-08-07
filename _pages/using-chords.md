@@ -1,10 +1,10 @@
 ---
 layout: single
-title: Users
+title: Using Chords
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-permalink: /users/
+permalink: /usingchords/
 toc: true
 toc_sticky: true
 toc_label: "Table of Contents"

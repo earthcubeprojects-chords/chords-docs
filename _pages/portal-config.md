@@ -1,10 +1,10 @@
 ---
 layout: single
-title: Admin
+title: Portal Configuration
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-permalink: /admin/
+permalink: /portalconfig/
 toc: true
 toc_sticky: true
 toc_label: "Table of Contents"
@@ -52,15 +52,36 @@ You will automatically be set to "guest" so an Admin will need to change your pe
 
 Admins can edit the portal configuration as well as users with Site Configuration permission.
 
-* Click on “Configure” selection in the upper right part of the screen. It will take you to a page called Configuration
+<!-- * Click on “Configure” selection in the upper right part of the screen. It will take you to a page called Configuration
 You will find buttons that will allow you to 
 - Export/Import previous Configuration
 - Export/Import previous InfluxDB Data
 - Configure JSON-LD Options
-- Configure InfluxDB Tags
+- Configure InfluxDB Tags -->
+
+
+Google's new Dataset Search service (see https://toolbox.google.com/datasetsearch<a href="https://toolbox.google.com/datasetsearch"></a>) allows users to locate relevant datasets across the Internet. CHORDS creates what is know as a JSON-LD encoding and schema.org conventions to allow your real-time streams to show up in these searches. 
+
+To configure these options, click on **“Configure”** selection in the upper right part of the screen. It will take you to a page called Configuration. 
+
 <figure>
   <a href="{{ site.baseurl }}/assets/images/Configure.png"><img  class="img-responsive" src="{{ site.baseurl }}/assets/images/Configure.png"></a>
 </figure>
+
+Next click the button labeled **“Configure JSON-LD options”** 
+
+You will see a new page, click on **“Edit”**. After that fill out:
+- Name
+- Description
+- Keywords
+- URL
+- License
+- DOI (use the CHORDS DOI of 10.5065/D6V1236Q if you don't already have an assigned DOI)
+
+And click **“Save”**
+
+
+The "Description" and "Keywords" fields are important as they determine the search keywords that Google Dataset Search will use to find your real-time streams. You can find out more about this from <a href="https://www.earthcube.org/p418">project 418 </a>or by investigating <a href= "https://en.wikipedia.org/wiki/JSON-LD">Wiki</a> and <a href="https://schema.org/">schema.org</a>.
 
 * Fill out the following under Standard Options: 
 

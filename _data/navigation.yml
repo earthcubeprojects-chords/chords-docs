@@ -12,10 +12,10 @@ main:
     url: /gettingstarted/
 
   - title: "Using CHORDS"
-    url: /users/
+    url: /usingchords/
 
   - title: "Portal Configuration"
-    url: /admin/
+    url: /portalconfig/
 
   - title: "Advanced"
     url: /advanced/
