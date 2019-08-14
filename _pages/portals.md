@@ -34,6 +34,8 @@ header:
 
 [Planet Texas 2050](http://chords.tacc.cloud/){:target="_blank"} (Planet Texas 2050 is an eight-year sprint to find solutions that will make our communities more resilient and better prepared.)
 
+[NMSBA](http://ec2-3-13-55-29.us-east-2.compute.amazonaws.com/){:target="_blank"}(The New Mexico Small Business Administration weather system)
+
 ### In the works and/or awaiting configuration for a future deployment
 canary.chordsrt.com
 
