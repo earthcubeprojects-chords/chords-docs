@@ -71,6 +71,9 @@ classes: wide
   pip install sh
   curl -O -k https://raw.githubusercontent.com/earthcubeprojects-chords/chords/master/chords_control
 
+  # Make sure the "future" module is installed
+  pip install future
+
   # Initial installation:
   python chords_control --config
   python chords_control --update
