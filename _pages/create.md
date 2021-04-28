@@ -115,7 +115,7 @@ much longer (even 30 minutes), depending upon AWS performance.
 
 ## 8. Accessing the new portal
 
-Once your portal is created click on your **Stack Name** then the **“Outputs”** tab. Below it will show a URL for the new portal, **click** on the URL to access your new portal.
+Once your portal is created, select the **“Outputs”** tab.  **Click** on the URL to access your new portal.
 <figure>
   <a href = "{{ site.baseurl }}/assets/images/Step9.png"><img  class="img-responsive" src="{{ site.baseurl }}/assets/images/Step9.png"></a><!--Using liquid to set path for images.-->
 </figure>
