@@ -13,7 +13,7 @@ toc_icon: "cog"
 
 ## chords_control
 
-When you {% highlight sh %} curl -O -k https://raw.githubusercontent.com/earthcubeprojects-chords/chords/master/chords_control {% endhighlight %} a file named "chords_control" is created in your folder "chords". This file sets up and maintains your portal. ``chords_control`` is the CHORDS management script. Used to manage the CHORDS portal configuration, running/stopping the portal, and updating the portal software.
+When you {% highlight sh %} curl -O -k https://raw.githubusercontent.com/earthcubeprojects-chords/chords/development/chords_control {% endhighlight %} a file named "chords_control" is created in your folder "chords". This file sets up and maintains your portal. ``chords_control`` is the CHORDS management script. Used to manage the CHORDS portal configuration, running/stopping the portal, and updating the portal software.
 
  
 There are several main ways to use chords_control

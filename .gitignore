@@ -3,3 +3,4 @@ _site
 .DS_Store
 .Gemfile.lock
 _pages/*.pdf
+_includes/*.pdf

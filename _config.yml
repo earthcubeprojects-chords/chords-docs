@@ -21,7 +21,7 @@ description              : "Cloud Hosted Online Realtime Data"
 url                      : https://earthcubeprojects-chords.github.io #If you change sites or github repos change this to match. It connects all across the website
 baseurl                  : "/chords-docs" # the subpath of your site, e.g. "/chords"
 downloadurl              : https://raw.githubusercontent.com #starting piece of the link for users to curl CHORDS
-downloadbaseurl          : /NCAR/chords/master/chords_control #setting the path for users to download chords_control in the event of a repo change adjust this accordingly as it connects across the website.
+downloadbaseurl          : /NCAR/chords/development/chords_control #setting the path for users to download chords_control in the event of a repo change adjust this accordingly as it connects across the website.
 repository               : earthcubeprojects-chords/chords-docs
 teaser                   : #"assets/images/banner_02.jpg"
 logo                     : "/assets/images/chords_logo_text.png"
