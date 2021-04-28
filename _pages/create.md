@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Create a Portal
+title: Create an AWS Portal
 permalink: /gettingstarted/create/
 toc: true
 toc_sticky: true
