@@ -139,9 +139,8 @@ own email and password.
 * Click **Update**
  
 # If something breaks
-* If the provisioning fails, the instance will be stopped, and you won\'t know why. You can redo the process, 
-and disable the rollback, so that the instance is left running. To do this, when on the *Options* page, 
-open the Advanced section, and change _Rollback on Failure_ to *No*. This will
-keep the instance running when the provisioning fails, so that you can ssh in and diagnose the problem.
+* If the provisioning fails, the instance will be stopped, and you probably won\'t know why :-). 
+  Since the rollback was disabled, it may be possible to ssh into the portal in order to obtain
+  some diagnostics related to the problem.
 
-[Continue to Portal Configuration]({{site.baseurl}}/admin/){: .btn .btn--info}
+[Continue to Portal Configuration]({{site.baseurl}}/portalconfig/){: .btn .btn--info}
