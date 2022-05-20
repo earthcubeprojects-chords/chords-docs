@@ -19,7 +19,7 @@ python3 chords_control --stop
 
 # To reconfigure and update:
 cd /var/lib/chords
-curl -O -k  https://raw.githubusercontent.com/earthcubeprojects-chords/chords/development/chords_control
+python3 chords_control --renew
 python3 chords_control --config
 python3 chords_control --update
 python3 chords_control --stop
