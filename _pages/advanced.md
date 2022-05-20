@@ -18,7 +18,7 @@ When you {% highlight sh %} curl -O -k https://raw.githubusercontent.com/earthcu
  
 There are several main ways to use chords_control
 
-``python chords_control --config``
+``python3 chords_control --config``
 - Lets you configure your CHORDS portal.
   - Set your 
     Database Password
@@ -30,26 +30,26 @@ There are several main ways to use chords_control
   - Set guest password
   - Configure portal port
 
-``python chords_control --update``
+``python3 chords_control --update``
 - Updates your portal's software
 
-``python chords_control --run``
+``python3 chords_control --run``
 - Starts your CHORDS portal
 
-``python chords_control --stop``
+``python3 chords_control --stop``
 - Stops your CHORDS portal
 
-``python chords_control -t``
+``python3 chords_control -t``
 - Lets you check your portal's current status
 
-If you have difficulties with your chords_control you can always type ``python chords_control --help``
+If you have difficulties with your chords_control you can always type ``python3 chords_control --help``
 
 ## Portal Backup and Restoration
 
-``python chords_control --backup``
+``python3 chords_control --backup``
 - Creates a backup .tar file of your portal
 
-``python chords_control --restore (backup_file.tar)``
+``python3 chords_control --restore (backup_file.tar)``
 - Restores your CHORDS portal to the backup version
 
 {% include video id="Tr1kRlVfFrQ" provider="youtube" %}

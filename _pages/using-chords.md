@@ -395,7 +395,7 @@ If time qualifiers are not specified, data for the curent day are returned.
 
 ## Data Backup
 
-There are many ways to backup your data and configuration on your CHORDS portal. First you should note that when you run ``python chords_control --config`` a backup copy of your configuration files is created.
+There are many ways to backup your data and configuration on your CHORDS portal. First you should note that when you run ``python3 chords_control --config`` a backup copy of your configuration files is created.
 You can also manually back up your portal by saving your configuration and database once everything is set up.  
 <figure>
   <a href ="{{ site.baseurl }}/assets/images/DataBackup.png"><img  class="img-responsive" src="{{ site.baseurl }}/assets/images/DataBackup.png"></a><!--Using liquid to set path for images.-->
