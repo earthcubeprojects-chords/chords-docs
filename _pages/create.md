@@ -68,8 +68,9 @@ The `ChordsEmailAddress` and `ChordsEmailPassword` parameters are not required, 
 specify an email account that can be used for email forwarding of password reset requests and grafana alerts.
 Gmail is typically used for this. Since the email credentials are stored on this CHORDS server instance, 
 **you really should create an email account to be used specifically and only for this purpose**.  
-(Note: gmail will require you to allow insecure application access to the mail account, unlock Captcha, and finally
-to authorize the CHORDS server when the first test email is sent from the CHHORDS admin account.
+(Note: you must enable 2FA and create an App password, using the 
+google account 'Security->Signing into Google' settings. Be sure to save the App password.
+Use the gmail account and the App password as the CHORDS email settings.
 It can be tricky to get the email forwarding to work.)
 
 For demonstrations and simple, low-bandwidth streaming feeds, select a _t2.micro_ instance type which are free
