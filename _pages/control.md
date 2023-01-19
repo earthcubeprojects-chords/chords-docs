@@ -11,7 +11,7 @@ shares the directory containing CHORDS configuration files.
 _Note: On systems where docker requires root, you may need to use sudo to run these commands._
 
 #### Requirements:
- * python 2.7 (Linux and MacOS have this by default; [install](https://www.python.org/downloads/windows/){:target="_blank"} on Windows)
+ * python 3 (Linux and MacOS have this by default; [install](https://www.python.org/downloads/windows/){:target="_blank"} on Windows)
  * curl (Linux and MacOS have this by default; [install](https://help.zendesk.com/hc/en-us/articles/229136847-Installing-and-using-cURL#install){:target="_blank"} on Windows)
  * A running docker system
    * OSX: [Docker for Mac](https://docs.docker.com/engine/installation/mac/#/docker-for-mac){:target="_blank"} is fantastic on the Mac.
@@ -29,18 +29,18 @@ _Note: On systems where docker requires root, you may need to use sudo to run th
 cd <configuration directory>
 
 # Fetch the CHORDS management script
-curl -O  https://raw.githubusercontent.com/NCAR/chords/master/chords_control
+curl -O  https://raw.githubusercontent.com/NCAR/chords/development/chords_control
 
 # Create configuration files (_chords.yml_ and _.env_ will be created)
 # (Be prepared to enter an admin password of your choosing.)
-python chords_control --config
+python3 chords_control --config
 
 # Update the CHORDS software
-python chords_control --update
+python3 chords_control --update
 {% endhighlight %}
 #### Running:
 {% highlight sh %}
-python chords_control --run
+python3 chords_control --run
 {% endhighlight %}
 
 #### Verifying:
@@ -54,18 +54,18 @@ Raspberry Pi can take up to a couple of minutes.
 
 #### Shutting down:
 {% highlight sh %}
-python chords_control --stop  
+python3 chords_control --stop  
 {% endhighlight %}
 * The CHORDS database will persist and be used the next time you run the CHORDS containers.
 
 
 #### Updating:
 {% highlight sh %}
-curl -O  https://raw.githubusercontent.com/NCAR/chords/master/chords_control
-python chords_control --config  # Optional if you are using, and want to stick with, the 'latest' release
-python chords_control --update
-python chords_control --stop
-python chords_control --run
+curl -O  https://raw.githubusercontent.com/NCAR/chords/development/chords_control
+python3 chords_control --config  # Optional if you are using, and want to stick with, the 'latest' release
+python3 chords_control --update
+python3 chords_control --stop
+python3 chords_control --run
 {% endhighlight %}
 
 #### Monitoring:
@@ -122,7 +122,7 @@ for configuring the dashboard queries. Data Source parameters are:
 
 
 ### Tips
-* You reconfigure the portal using ```python chords_control --config```. Backup copies of the configuration
+* You reconfigure the portal using ```python3 chords_control --config```. Backup copies of the configuration
 files are created in case you need to go back. Once you have set the CHORDS admin password and the secret key base,
 you should not change them. Otherwise, the Rails application will not be able to access the CHORDS databases.
 

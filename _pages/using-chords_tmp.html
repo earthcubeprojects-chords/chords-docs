@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>using-chords.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+<link rel="stylesheet" href="file:///Users/charlie/.vscode/markdown-pdf.css" type="text/css">
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h2 id="what-can-users-do">What can users do?</h2>
+<p>Users can create, view, and download data from CHORDS. However a person’s access level will determine the functions available. Permissions, such as data downloader, are enhancements on a registered user, while the guest user is equivalent to not being logged in.</p>
+<h3 id="guest">Guest</h3>
+<p>Guest User Can:</p>
+<ul>
+<li>Read About page</li>
+<li>View self information</li>
+</ul>
+<h3 id="registered-user">Registered User</h3>
+<p>Registered User Can:</p>
+<ul>
+<li>Read About page and view data</li>
+<li>View Site</li>
+<li>View Instruments</li>
+<li>Can View and edit self information</li>
+</ul>
+<h3 id="data-downloader">Data Downloader</h3>
+<p>You guessed it. This option lets Users view and download data from instruments.</p>
+<p>A Data Downloader can:</p>
+<ul>
+<li>Download data</li>
+<li>View Instruments, (only if combined with Registered user)</li>
+</ul>
+<ol>
+<li>
+<p>Log into chords</p>
+</li>
+<li>
+<p>Click on <strong>“Data”</strong> on the left side of your screen</p>
+</li>
+<li>
+<p>Select the dates that you want to download data from</p>
+</li>
+<li>
+<p>Select the instruments you want to download data from OR click <strong>“Select All”</strong></p>
+</li>
+<li>
+<p>Click <strong>“Download GeoJSON”</strong> or <strong>“Download GeoCSV”</strong></p>
+</li>
+</ol>
+<h3 id="measurement-creator">Measurement Creator</h3>
+<p>Measurement Creator can:</p>
+<ul>
+<li>Create test data</li>
+<li>Create test measurements</li>
+</ul>
+<p>As a measurement creator it is recommended that you keep this account separate from other accounts that are used for data downloading or just as a registered user. Doing so prevents security issues in the future. Each Measurement user has their own API key to send measurements.</p>
+<p>To find your api key:</p>
+<ol>
+<li>Log into chords with your measurement account</li>
+<li>Click on <strong>“Users”</strong> on the upper right corner of the screen</li>
+<li>Copy the randomly generated key under API key.</li>
+</ol>
+<p><font color="red">Note: </font>You should only have ONE API key per instrument.</p>
+<h2 id="particle-iot-hardware">Particle IoT hardware</h2>
+<p>How to create a JSON string using <a href="https://www.particle.io">Particle</a>{:target=&quot;_blank&quot;}</p>
+<ol>
+<li>In the beginning of your program add the line: <code>#define ARDUINOJSON_ENABLE_ARDUINO_STRING 1</code></li>
+<li>Add the library ArduinoJSON <code>#include &lt;ArduinoJson.h&gt;</code></li>
+<li>In Loop initialize the JSON, Add variables to the JSON, Publish the JSON as a string</li>
+</ol>
+<p><font color="red">Note:</font> the items that say <code>leaf.&lt;something&gt;</code> are pulling data from sensors.</p>
+<pre class="hljs"><code><div><span class="hljs-comment">//Pull Sensor data to variables</span>
+<span class="hljs-keyword">float</span> sm6      = moisture_percentage_sm6;       <span class="hljs-comment">// shallow soil moisture sensor: percent of raw</span>
+<span class="hljs-keyword">float</span> sm18     = moisture_percentage_sm18;      <span class="hljs-comment">// deep soil moisture sensor: percent of raw</span>
+<span class="hljs-keyword">float</span> st6      = soil_temperature;              <span class="hljs-comment">// shallow soil temp (C)</span>
+ 
+<span class="hljs-comment">//JSON string creation</span>
+jsondata[<span class="hljs-string">"bme_temp"</span>] = temp;
+jsondata[<span class="hljs-string">"bme_rh"</span>] = rh_humid;
+jsondata[<span class="hljs-string">"bme_pressure"</span>] = pressure;
+
+<span class="hljs-comment">// Format string for submission to CHORDS</span>
+String data = String::format(
+  <span class="hljs-string">"{"</span>
+    <span class="hljs-string">"\"sm6\":%.2f,"</span>
+    <span class="hljs-string">"\"sm18\":%.2f,"</span>
+    <span class="hljs-string">"\"st6\":%.2f,"</span>
+  <span class="hljs-string">"}"</span>,
+  sm6,
+  sm18,
+  st6);
+
+<span class="hljs-comment">// Created a new variable named data that is of type string which is needed for particle publish</span>
+  Particle.publish(<span class="hljs-string">"MoonFarm"</span>, data, PRIVATE);
+  delay(<span class="hljs-number">60000</span>);
+</div></code></pre>
+<p>For this next step make sure you have the following from your CHORDS portal</p>
+<p><strong>instrument id number</strong><br>
+<strong>API Key</strong> (Under users)<br>
+<strong>URL</strong> (selecting “Data URLs” and then everything up to the “?”)</p>
+<ul>
+<li>Log into your <a href="https://login.particle.io/login?redirect=https://console.particle.io/devices">Particle Cloud Console</a>{:target=&quot;_blank&quot;}</li>
+<li>On the left hand side select <strong>“Integrations”</strong> then <strong>“New Integration”</strong></li>
+<li>Click <strong>&quot;Webhook&quot;</strong>
+<img  class="img-responsive" src="{{ site.baseurl }}/assets/images/Webhook.png"><!--Using liquid to set path for images.--></li>
+<li>For <strong>event name</strong> type in the name of the Particle Publish event Title (eg. if your code has Particle.publish(“Full Data”, datum); then the event name would be “Data”)</li>
+<li>For the <strong>URL</strong> paste in the URL from “DataURLs” found in CHORDS up to and including the “?”</li>
+<li>For <strong>Request Type</strong> select <strong>&quot;GET&quot;</strong></li>
+<li>For <strong>Device</strong>, select the appropriate device or leave it as any depending on the project</li>
+<li>Click <strong>&quot;Advanced Settings&quot;</strong></li>
+<li>Under <strong>&quot;Form Fields&quot;</strong> select <strong>&quot;Custom&quot;</strong></li>
+<li>In the first two fields type <strong>“instrument_id”</strong> and the number of your instrument id from CHORDS</li>
+<li>Click <strong>&quot;Add Row&quot;</strong></li>
+<li>In the rows first field type the <strong>“short_name”</strong> from your CHORDS and in the second field enter the <strong>“JSON Key Name”</strong> within a set of two braces (eg. {{short_name}} )<br>
+Chords Short Name
+<img  class="img-responsive" src="{{ site.baseurl }}/assets/images/ChordsVariables.png"><!--Using liquid to set path for images.-->
+JSON Key Name
+<img  class="img-responsive" src="{{ site.baseurl }}/assets/images/JSONKeyName.png"><!--Using liquid to set path for images.-->
+<font color="red">Note:</font>short_name from CHORDS and the JSON key name should MATCH.</li>
+<li>Continue to add rows for all of your variables</li>
+<li>Click <strong>“Create Webhook”</strong></li>
+</ul>
+<p class="notice--primary">Do not Particle.publish data faster than 1 per second or Particle will complain and or limit your ability to stream data (you can insert a &#x201C;delay(1000);&#x201D; in your code after a Particle.publish to prevent this issue)</p>
+<p>If the data never shows up at the CHORDS site you are using, you can go back to “Integrations” on Particle, scroll all the way down to the bottom of your webhook and it provides further information under “Logs”.</p>
+<p>Thanks to Je'aime Powell of the <a href="https://www.tacc.utexas.edu">University of Texas</a>{:target=&quot;_blank&quot;} for putting together these documents for us.</p>
+<h2 id="retrieving-data">Retrieving Data</h2>
+<!-- ## Storing Measurements -->
+<h3 id="sending-a-url-from-unix">Sending a URL from UNIX</h3>
+<h4 id="data-in">Data In</h4>
+<p>It is easy to submit new data to a Portal, simply using standard HTTP URLs. The URL can be submitted directly from the address bar of your browser (but of course this would get tedious).
+We will first describe the URL syntax, and follow this with examples that demonstrate how easy it is to feed your data to a CHORDS Portal, using Python, C, a browser or the command line. These are only a few of the languages that work, and you should be able to figure out a similar method for your own particular language. Almost all programming languages have functions for submitting HTTP requests.</p>
+<h4 id="url-syntax">URL Syntax</h4>
+<p>Sample URLs for submitting measurements to the Portal:</p>
+<pre class="hljs"><code><div>http://myportal.org/measurements/url_create?instrument_id=[INST_ID]&amp;wdir=038&amp;wspd=3.2&amp;at=2015-08-20T19:50:28
+http://myportal.org/measurements/url_create?instrument_id=[INST_ID]&amp;p=981.2&amp;email=[USER_EMAIL]&amp;api_key=[API_KEY]
+http://myportal.org/measurements/url_create?instrument_id=[INST_ID]&amp;p=981.2&amp;email=[USER_EMAIL]&amp;api_key=[API_KEY]&amp;at=2015-08-20T19:50:28&amp;test
+</div></code></pre>
+<p><em>myportal.org</em> is the hostname of your Portal. The fields after “?” are qualifiers, each separated by “&amp;”.
+Measurements for variables are specified by <em>shortname=value</em> pairs. You do not need to include measurements for all variables defined for the instrument, if they are not available.</p>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Qualifier</th>
+      <th>Optional</th>
+      <th>Meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>instrument_id=id</td>
+      <td>No</td>
+      <td>The Portal assigned instrument identifier.</td>
+    </tr>
+    <tr>
+      <td>at=time</td>
+      <td>Yes</td>
+      <td>Specify a timestamp to be applied to the measurements. If <em>at</em> is not specified,
+      the measurement will be stamped with the time that it was received by the Portal (often
+      quite adequate). The time format is <a href="https://en.wikipedia.org/wiki/ISO_8601">ISO8061</a>.</td>
+    </tr>
+    <tr>
+      <td>email=[USER_EMAIL]</td>
+      <td>Yes</td>
+      <td>If the Portal has been configured to require a security key for incoming measurements, the user email, <em>email</em> qualifier is needed.</td>
+    </tr>
+    <tr>
+      <td>api_key=[API_KEY]</td>
+      <td>Yes</td>
+      <td>If the Portal has been configured to require a security key for incoming measurements, it
+      is specified with the <em>api_key</em> qualifier. Keys are case sensitive and specific for a given user with the measurements permission enabled.</td>
+    </tr>
+    <tr>
+      <td>test</td>
+      <td>Yes</td>
+      <td>Add the <em>test</em> qualifier to signify that the measurements are to be marked as test
+      values. Test measurements may be easily deleted using the Portal interface.</td>
+    </tr>
+  </tbody>
+</table>
+<h4 id="programming-examples">Programming Examples</h4>
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-Browser">Browser and Sh</a></li> <!-- names on the tabs -->
+    <li><a href="#tabs-Python">Python</a></li>
+    <li><a href="#tabs-C">C</a></li>
+  </ul>
+  <div id="tabs-Browser"> <!-- content under tab -->
+  <div id="browser" class="tab-pane active">
+  Data can be submitted to a portal just by typing the URL into the address bar of a browser. It&apos;s unlikely that you would use this method for any serious data collection!
+  <!-- Add picture here -->
+  {% highlight sh %}
+  wget http://chords.dyndns.org/measurements/url_create?instrument_id=25&amp;wdir=121&amp;wspd=21.4&amp;wmax=25.3&amp;tdry=14.3&amp;rh=55&amp;pres=985.3&amp;raintot=0&amp;batv=12.4&amp;at=2015-08-20T19:50:28&amp;email=[USER_EMAIL]&amp;api_key=[API_KEY]
+</div></div></div><p>curl http://chords.dyndns.org/measurements/url_create?instrument_id=25&amp;wdir=121&amp;wspd=21.4&amp;wmax=25.3&amp;tdry=14.3&amp;rh=55&amp;pres=985.3&amp;raintot=0&amp;batv=12.4&amp;at=2015-08-20T19:50:28&amp;email=[USER_EMAIL]&amp;api_key=[API_KEY]
+{% endhighlight %}</p>
+<p>The <i>wget</i> and <i>curl</i> commands, available in Linux and OSX, can accomplish the same thing from a console.</p>
+  
+  
+  <div id="tabs-Python"> <!-- content under tab -->
+  <div id="python" class="tab-pane active">
+  {% highlight python %}
+  #!/usr/bin/python
+</div></div><p>#Put a collection of measurements into the portal
+import requests
+url = 'http://my-chords-portal.com/measurements/url_create?instrument_id=3&amp;t=27.1&amp;rh=55&amp;p=983.1&amp;ws=4.1&amp;wd=213.5&amp;email=[USER_EMAIL]&amp;api_key=[API_KEY]'
+response = requests.get(url=url)
+print response
+...
+&lt;Response [200]&gt;
+{% endhighlight %}</p>
+  
+  
+  <div id="tabs-C"> <!-- content under tab -->
+  <div id="c" class="tab-pane active">
+</div></div><p>This example uses the <a href="https://curl.haxx.se/libcurl/c/libcurl.html">libCurl</a> library in a C program to send a measurement URL to a portal.</p>
+<p>{% highlight c %}
+#include &lt;stdio.h&gt;
+#include &lt;curl/curl.h&gt;</p>
+<p>int main(void)
+{
+CURL *curl;
+CURLcode res;</p>
+<pre><code>curl = curl_easy_init();
+if(curl) {
+  // if using instrument_id:
+  char* url = &quot;http://chords.dyndns.org/measurements/url_create?instrument_id=25&amp;wdir=121&amp;wspd=21.4&amp;wmax=25.3&amp;tdry=14.3&amp;rh=55&amp;pres=985.3&amp;raintot=0&amp;batv=12.4&amp;at=2015-08-20T19:50:28&amp;email=[USER_EMAIL]&amp;api_key=[API_KEY]&quot;;
+
+  // if using sensor_id:
+  char* url = &quot;http://chords.dyndns.org/measurements/url_create?sensor_id=your_sensor_id&amp;wdir=121&amp;wspd=21.4&amp;wmax=25.3&amp;tdry=14.3&amp;rh=55&amp;pres=985.3&amp;raintot=0&amp;batv=12.4&amp;at=2015-08-20T19:50:28&amp;email=[USER_EMAIL]&amp;api_key=[API_KEY]&quot;; 
+
+  curl_easy_setopt(curl, CURLOPT_URL, url);
+  /* example.com is redirected, so we tell libcurl to follow redirection */
+  curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
+
+  /* Perform the request, res will get the return code */
+  res = curl_easy_perform(curl);
+  /* Check for errors */
+  if(res != CURLE_OK)
+    fprintf(stderr, &quot;curl_easy_perform() failed: %s\n&quot;,
+            curl_easy_strerror(res));
+
+  /* always cleanup */
+  curl_easy_cleanup(curl);
+}
+return 0;
+</code></pre>
+<p>}
+{% endhighlight %}</p>
+  
+  
+
+<script>
+$("#tabs").tabs();
+</script>
+<h4 id="data-out">Data Out</h4>
+<p>It's just as easy to get data out of a Portal as it is to put data in. This can
+be done directly from the Portal web page. Or you can use HTTP URL's to
+fetch data. The URL can be submitted directly from the address bar of your browser, which will
+deliver the data in standard formats such as CSV files, JSON files, or plain JSON.</p>
+<p>You can also retrieve data using your favorite programming language to construct
+a program to send URLs and receive data, letting you build
+analysis and visulaization apps that can process your real-time observations. Using JavaScipt,
+you can even build widgets and pages that display your data on your own web site.</p>
+<p>We will first describe the URL syntax for retrieving data, and follow this with examples that
+demonstrate how easy it is to integrate your analysis activities with a CHORDS Portal using
+Python, HTML, IDL, Matlab, R, sh, etc. You get the idea.</p>
+<h3 id="url-syntax">URL Syntax</h3>
+<p>Sample URLs for fetching data from the Portal:</p>
+<pre><code>http://myportal.org/instruments/1.csv
+http://myportal.org/instruments/1.csv?start=2015-08-01T00:30&amp;end=2015-08-20T12:30
+http://myportal.org/instruments/4.geojson?email=[USER_EMAIL]&amp;api_key=[API_KEY]
+http://myportal.org/instruments/3.xml
+http://myportal.org/instruments/3.json?last
+</code></pre>
+<p><em>myportal.org</em> is the hostname of your Portal. The fields after &quot;?&quot; are quallifiers, each
+separated by &quot;&amp;&quot;.</p>
+<p>The number following &quot;<em>instruments/</em>&quot; is the instrument identifier.</p>
+<p>Following the instrument identifier is the format that the data will be returned in (<em>csv, geojson, json or xml</em>).</p>
+<p>Some formats result in a data file being returned to you browser, which can be saved
+in a directory. The other formats directly return text, which can
+be easily ingested into programs.</p>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Format</th>
+      <th>File or Text</th>
+      <th>Data Product</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>.csv</td>
+      <td>File</td>
+      <td>Data in a comma-separated-value GeoCSV (CSV) file. CSV files can be opened automatically
+          by spreadsheet programs such as MS Excel.</td>
+    </tr>
+    <tr>
+      <td>.geojson</td>
+      <td>File</td>
+      <td>Data in a GeoJSON structured file, following RFC 7946. Most scripting programs can easily read JSON
+          into a structured variable.</td>
+    </tr>
+    <tr>
+      <td>.xml</td>
+      <td>File</td>
+      <td>Data in an eXtensible-Markup-Language (XML) structured file.</td>
+    </tr>
+    <tr>
+      <td>.json</td>
+      <td>Text</td>
+      <td>Data in straight JSON format. This format is used to bring data directly into a
+          processing program.</td>
+    </tr>
+  </tbody>
+</table>
+<p>Fields after &quot;?&quot; are quallifier pairs, with each separated by &quot;&amp;&quot;. The qualifiers are
+optional, and are used to refine the data request.</p>
+<p>If time qualifiers are not specified, data for the curent day are returned.</p>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Qualifier</th>
+      <th>Meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>start=time</td>
+      <td>Start time of the data span, in <a href="https://en.wikipedia.org/wiki/ISO_8601">ISO8061</a> format.</td>
+    </tr>
+    <tr>
+      <td>end=time</td>
+      <td>Start time of the data span, in <a href="https://en.wikipedia.org/wiki/ISO_8601">ISO8061</a> format.</td>
+    </tr>
+    <tr>
+      <td>email=[USER_EMAIL]</td>
+      <td>If the Portal has been configured to require a security key for downloading data, the user email must also be specified with the <em>email</em> qualifier.</td>
+    </tr>
+    <tr>
+      <td>api_key=[API_KEY]</td>
+      <td>If the Portal has been configured to require a security key for downloading data, it
+      is specified with the <em>api_key</em> qualifier. Keys are case sensitive and must be paired with the user email associated with the api key.</td>
+    </tr>
+  </tbody>
+</table>
+<h2 id="data-backup">Data Backup</h2>
+<p>There are many ways to backup your data and configuration on your CHORDS portal. First you should note that when you run <code>python3 chords_control --config</code> a backup copy of your configuration files is created.
+You can also manually back up your portal by saving your configuration and database once everything is set up.</p>
+<figure>
+  <a href="{{ site.baseurl }}/assets/images/DataBackup.png"><img class="img-responsive" src="file:///Users/charlie/Work/NCAR/chords-docs/_pages/{{ site.baseurl }}/assets/images/DataBackup.png"></a><!--Using liquid to set path for images.-->
+</figure>
+<p>To save Configuration:</p>
+<ul>
+<li>Go to Configuration tab</li>
+<li>Click on <strong>Export Configuration</strong></li>
+</ul>
+<p>To save Influxdb data:</p>
+<ul>
+<li>Go to Configuration tab</li>
+<li>Click on either <strong>Export Influxdb data</strong></li>
+</ul>
+<p>You can also upload previous information from an old portal to a new one by using the <strong>Import</strong> buttons located at the top of the configuration page.</p>
+<h3 id="download-data">Download Data</h3>
+<p>To download data first go to the Data tab in your CHORDS portal. From here you can download data 4 different ways.</p>
+<ol>
+<li>You can download data within a determined date range.</li>
+<li>You can download data by selecting specific instruments and then clicking &quot;Download GeoJSON&quot;</li>
+<li>You can download all of your data by clicking &quot;Select All&quot; and then clicking &quot;Download GeoJSON&quot;</li>
+<li>You can select &quot;Data URLs&quot; then select the generated url. Combine this with custom code to continue to pull specific data types.</li>
+</ol>
+<h3 id="grafana">Grafana</h3>
+<p>Beginning Grafana
+{% include video id=&quot;B02M7pXEybM&quot; provider=&quot;youtube&quot; %}</p>
+<p>How to make alerts on Grafana (Provided by Virginia Tech)
+{% include video id=&quot;j8CVsUEH1V4&quot; provider=&quot;youtube&quot; %}</p>
+<p><a href="https://grafana.com">Grafana</a>{:target=&quot;_blank&quot;} is an open-source visualization system that allows you to create powerful data dashboards, right from the browser. The dashboards are very responsive because they fetch data directly from the CHORDS database. The extensive <a href="http://docs.grafana.org">Grafana documentation</a>{:target=&quot;_blank&quot;} explains how to unleash the full capability of the system.</p>
+<p>However, the following tutorial explains quickly how to configure Grafana to interact with CHORDS, and how to create a simple dashboard.</p>
+<p><strong>Note: You should have the portal configured with at least one site/instrument/variable before trying to create a dashboard. If there is no data in the portal, you can create some test data using the simulation function.</strong></p>
+<p>Extra credit: once you have been able to make a simple Grafana graph, see this <a href="http://docs.grafana.org/features/datasources/influxdb/">tutorial</a>{:target=&quot;_blank&quot;} for indepth instructions on database access and calculations.</p>
+<p>This is an example of Grafana panel embedding. The iframe element is:</p>
+<pre class="hljs"><code><div>&lt;iframe src=&quot;http://portal.chordsrt.com:3000/d-solo/000000015/5-ml-sonic?refresh=1m&amp;orgId=1&amp;panelId=1&amp;from=now-1h&amp;to=now&quot; width=&quot;800&quot; height=&quot;600&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+</div></code></pre>
+<iframe src="http://portal.chordsrt.com:3000/d-solo/000000015/5-ml-sonic?refresh=1m&amp;orgId=1&amp;panelId=1&amp;from=now-1h&amp;to=now" width="600" height="400" frameborder="0"></iframe>
+<ul>
+<li>
+<p><strong>Open Grafana</strong>
+The visualization link will open a new browser window which provides access to the Grafana time-series visualization system.
+<img  class="img-responsive" src="{{ site.baseurl }}/assets/images/grafsetup_011.png"><!--Using liquid to set path for images.--></p>
+</li>
+<li>
+<p><strong>Login</strong></p>
+</li>
+</ul>
+<ul>
+<li>Sign in to Grafana
+<img  class="img-responsive" src="{{ site.baseurl }}/assets/images/grafsetup_010.png"><!--Using liquid to set path for images.--></li>
+<li>Once you've signed in you will be required to change your password.</li>
+<li>If you need to change your password again or edit permissions go through Admin-&gt;Profile:
+<img  class="img-responsive" src="{{ site.baseurl }}/assets/images/grafsetup_020.png"><!--Using liquid to set path for images.--></li>
+</ul>
+<ul>
+<li><strong>Add a new panel to a dashboard</strong></li>
+</ul>
+<ul>
+<li>Your grafana is already set up with a dashport but you can set up different panels to suit your needs.</li>
+<li>Click on the &quot;add a new panel&quot; button in the upper middle part of the screen.</li>
+<li>Select your desired panel</li>
+</ul>
+<ul>
+<li><strong>Connect data to new panel</strong></li>
+</ul>
+<ul>
+<li>Click on the title of the new panel and select &quot;edit&quot;</li>
+<li>Fill out the content</li>
+</ul>
+<p>**NOTE:**The variable number will relate to the instrument_id <strong>NOT</strong> sensor_id. (var = instrument_id)</p>
+<p><img  class="img-responsive" src="{{ site.baseurl }}/assets/images/grafsetup_120.png"><!--Using liquid to set path for images.--></p>
+<p>When you're done editing your grafana should look something like:</p>
+<pre><code>“autogen” “tsdata” “var” “(variable number)”  
+“field(value)” “mean()”  
+“time($_interval)” “fill(null)”  
+“(enter legend)”
+</code></pre>
+
+</body>
+</html>

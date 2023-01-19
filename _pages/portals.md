@@ -12,6 +12,8 @@ header:
 
 [3D](http://3d.chordsrt.com){:target="_blank"} (weather data from many sources around the world using the inexpensive [3D-PAWS](https://www.iepas.ucar.edu/core-programs/3dpaws/) stations developed at NCAR using 3D-printer technology)
 
+[3D Barbados](http://3d-barbados.chordsrt.com){:target="_blank"} ([3D-PAWS](https://www.iepas.ucar.edu/core-programs/3dpaws/) stations in Barbados)
+
 [3D Zambia](http://3d-zambia.chordsrt.com){:target="_blank"} ([3D-PAWS](https://www.iepas.ucar.edu/core-programs/3dpaws/) stations in Zambia)
 
 [3D Kenya](http://3d-kenya.chordsrt.com){:target="_blank"} ([3D-PAWS](https://www.iepas.ucar.edu/core-programs/3dpaws/) stations in Kenya)
