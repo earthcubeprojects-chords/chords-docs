@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Portal Configuration
-permalink: /gettingstarted/config/
+permalink: /admin/config/
 toc: true
 toc_sticky: true
 toc_label: "Table of Contents"

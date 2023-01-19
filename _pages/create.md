@@ -12,7 +12,7 @@ toc_icon: "cog"
 If someone else has already created a Portal for you, you can skip Portal creation. Just point
 your browser at the new Portal and perform the initial login as user: <em>admin@chordsrt.com</em>, 
 password: <em>realtimedata</em>. You will be prompted to change the password during this first login.
-You can then proceed to [Site configuration]({{site.baseurl}}/admin).
+You can then proceed to [Site configuration]({{site.baseurl}}/admin/config).
 
 The Portal runs as a standalone web server on Amazon Web Services (AWS). 
 The interface to AWS can seem a bit overwhelming (currently offering 52
@@ -127,4 +127,4 @@ and disable the rollback, so that the instance is left running. To do this, when
 open the Advanced section, and change _Rollback on Failure_ to *No*. This will
 keep the instance running when the provisioning fails, so that you can ssh in and diagnose the problem.
 
-[Continue to Portal Configuration]({{site.baseurl}}/admin/){: .btn .btn--info}
+[Continue to Portal Configuration]({{site.baseurl}}/admin/config/){: .btn .btn--info}

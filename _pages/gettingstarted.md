@@ -39,7 +39,7 @@ If you are NSF funded then you can use a Jestream instance free! If you aren't t
 
 Once you've created your Jetstream server and portal you'll need to configure it through your browser.
 
-<a href="{{site.baseurl}}/gettingstarted/config" class="btn btn--primary">Configure the Portal</a> -->
+<a href="{{site.baseurl}}/admin/config" class="btn btn--primary">Configure the Portal</a> -->
 
 
 ## Option 3: Run CHORDS on prefered Operating System
@@ -54,7 +54,7 @@ CHORDS can be run on a cloud service of your choice, or just a local machine, ru
 
 After the Portal is created, you will use your browser to configure and manage it.
 
-<a href="{{site.baseurl}}/gettingstarted/config" class="btn btn--primary">Configure the Portal</a> -->
+<a href="{{site.baseurl}}/admin/config" class="btn btn--primary">Configure the Portal</a> -->
 
 
 ## Option 4: Other
