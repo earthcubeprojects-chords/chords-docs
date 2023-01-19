@@ -12,7 +12,7 @@ toc_icon: "cog"
 If someone else has already created a Portal for you, you can skip Portal creation. Just point
 your browser at the new Portal and perform the initial login as user: <em>admin@chordsrt.com</em>, 
 password: <em>realtimedata</em>. You will be prompted to change the password during this first login.
-You can then proceed to [Site configuration]({{site.baseurl}}/admin/config).
+You can then proceed to [Site configuration]({{site.baseurl}}/portalconfig).
 
 The Portal runs as a standalone web server on Amazon Web Services (AWS). 
 The interface to AWS can seem a bit overwhelming (currently offering 52
@@ -143,4 +143,4 @@ own email and password.
   Since the rollback was disabled, it may be possible to ssh into the portal in order to obtain
   some diagnostics related to the problem.
 
-[Continue to Portal Configuration]({{site.baseurl}}/admin/config/){: .btn .btn--info}
+[Continue to Portal Configuration]({{site.baseurl}}/portalconfig/){: .btn .btn--info}

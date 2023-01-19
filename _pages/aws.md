@@ -5,7 +5,7 @@ permalink: /gettingstarted/aws/
 classes: wide
 ---
 
-If you already have an AWS account, just go to [Site configuration]({{site.baseurl}}/admin/config).
+If you already have an AWS account, just go to [Site configuration]({{site.baseurl}}/portalconfig).
 
 
 ## 1. Sign up in AWS

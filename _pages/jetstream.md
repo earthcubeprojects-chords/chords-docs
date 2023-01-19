@@ -119,6 +119,6 @@ Before you can get started with CHORDS you will need to get an Image running.
 
 You now have a CHORDS portal that can be accessed from any computer! Congratulations! Use your newfound power wisely.
 
-[Continue to Portal Configuration]({{site.baseurl}}/admin/config/){: .btn .btn--info}
+[Continue to Portal Configuration]({{site.baseurl}}/portalconfig/){: .btn .btn--info}
 
 
