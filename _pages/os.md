@@ -69,7 +69,7 @@ classes: wide
   cd chords
 
   # Fetch the control script:
-  pip3 install sh
+  pip3 install sh==1.14.3
   curl -O -k https://raw.githubusercontent.com/earthcubeprojects-chords/chords/development/chords_control
 
   # Make sure the "future" module is installed
