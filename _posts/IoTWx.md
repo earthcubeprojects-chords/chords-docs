@@ -1,0 +1,22 @@
+CHORDS now taking in data from NCAR's IoTWx platform!
+
+Workforce diversity in the geosciences can be enhanced by embracing not only science expertise but also engineering,
+software, data wrangling and other support areas. Furthermore, bringing climate data sampling to local communities can pique
+the interest of a future workforce interested in climate, weather and more broadly science, engineering and technology.
+Fortunately, we are in the midst of a revolution of ubiquitous sensor data which is democratizing  data access to an
+unprecedented level. The [OpenIoTwx platform](https://git.io/JcRyO), consisting of 3D printed parts as well as very
+inexpensive electronic components and sensors, has tremendous potential to bring local weather (and other community) data
+to traditionally underserved communities. By embracing the diverse skills needed to construct these IoTwx platforms, placing
+them at or near libraries or community colleges in rural communities and making the local weather data easily accessible
+through EarthCube’s Cloud-Hosted Real-time Data Services for the Geosciences (CHORDS) project, we are stimulating interest
+in student and citizen science, the geosciences and data-driven community decision making across a wide range of community
+partners and stakeholders.
+
+Threats to rural communities are particularly large given increasing climate change impacts, and with both historical
+and real-time data often in short supply, decision-making, modeling and planning are rendered ineffective during short-term
+crises and trend analysis for medium term planning lacks statistical certainty. Through the collection and access of these
+data, an IoTwx station positioned in a local community could enhance understanding of severe weather phenomena and spark
+interest in atmospheric science and STEM careers. As part of a small NCAR Diversity grant, we have first partnered with
+rural Colorado Community Colleges and are working with STEM educators to engage 2YC students. In the future, we are working
+with colleagues to expand this effort to include Historically Black Colleges and Universities. If our abstract is selected,
+we will set up a demo of a prototype version of our modular weather station designed with funding from this modest project.
