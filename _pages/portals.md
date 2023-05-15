@@ -9,7 +9,7 @@ header:
 
 ### Actively collecting data across a range of science interests
 
-[IOTWx](http://cisl-chords.cloud.ucar.edu){:target="_blank"} ([IoTWx]([https://www.iepas.ucar.edu/core-programs/3dpaws/](https://edec.ucar.edu/events/3d-printed-technology)) The "Internet of Things Weather Station" (IoTWx) is an inexpesive weather station built from 3D printed parts and widely available electronic components to fill data gaps and spark STEM education)
+[IoTWx](http://cisl-chords.cloud.ucar.edu){:target="_blank"} ([IoTWx]([https://www.iepas.ucar.edu/core-programs/3dpaws/](https://edec.ucar.edu/events/3d-printed-technology)) The "Internet of Things Weather Station" (IoTWx) is an inexpesive weather station built from 3D printed parts and widely available electronic components to fill data gaps and spark STEM education)
 
 [3D](http://3d.chordsrt.com){:target="_blank"} (weather data from many sources around the world using the inexpensive [3D-PAWS](https://www.iepas.ucar.edu/core-programs/3dpaws/) stations developed at NCAR using 3D-printer technology)
 
