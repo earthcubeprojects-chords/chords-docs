@@ -70,7 +70,7 @@ classes: wide
 
   # Fetch the control script:
   pip3 install sh==1.14.3
-  curl -O -k https://raw.githubusercontent.com/earthcubeprojects-chords/chords/development/chords_control
+  curl -O -k https://raw.githubusercontent.com/earthcubeprojects-chords/chords/master/chords_control
 
   # Make sure the "future" module is installed
   pip3 install future
@@ -155,7 +155,7 @@ classes: wide
   cd chords
 
 # Fetch the control script:
-curl -O -k https://raw.githubusercontent.com/earthcubeprojects-chords/chords//development/chords_control
+curl -O -k https://raw.githubusercontent.com/earthcubeprojects-chords/chords//master/chords_control
 
 # Initial installation:
 python3 chords_control --config
