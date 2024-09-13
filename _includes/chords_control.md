@@ -4,11 +4,11 @@ mkdir -p /var/lib/chords
 cd /var/lib/chords
 
 # Fetch the control script:
-pip3 install sh==1.14.3
-curl -O -k https://raw.githubusercontent.com/earthcubeprojects-chords/chords/development/chords_control
+pip3 install sh
+curl -O -k https://raw.githubusercontent.com/earthcubeprojects-chords/chords/master/chords_control
 
 # Initial installation:
-python3 chords_control --config
+python3 chords_control --config 
 python3 chords_control --update
 
 # To run CHORDS:
