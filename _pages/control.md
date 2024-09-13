@@ -29,7 +29,7 @@ _Note: On systems where docker requires root, you may need to use sudo to run th
 cd <configuration directory>
 
 # Fetch the CHORDS management script
-curl -O  https://raw.githubusercontent.com/NCAR/chords/development/chords_control
+curl -O  https://raw.githubusercontent.com/NCAR/chords/master/chords_control
 
 # Create configuration files (_chords.yml_ and _.env_ will be created)
 # (Be prepared to enter an admin password of your choosing.)
@@ -61,7 +61,7 @@ python3 chords_control --stop
 
 #### Updating:
 {% highlight sh %}
-curl -O  https://raw.githubusercontent.com/NCAR/chords/development/chords_control
+curl -O  https://raw.githubusercontent.com/NCAR/chords/master/chords_control
 python3 chords_control --config  # Optional if you are using, and want to stick with, the 'latest' release
 python3 chords_control --update
 python3 chords_control --stop
